@@ -1,0 +1,3568 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<data version="1.38.0">
+  <trigger type="key_event">
+    <useDefaultName>true</useDefaultName>
+    <name>Hardware Key Event: VOLUME_UP Down</name>
+    <enabled>true</enabled>
+    <keyList>VOLUME_UP</keyList>
+    <keyDown>true</keyDown>
+    <keyUp>false</keyUp>
+    <blockEvent>false</blockEvent>
+  </trigger>
+  <trigger type="quick_settings_tile_selected">
+    <useDefaultName>false</useDefaultName>
+    <name>Tile - 3</name>
+    <enabled>false</enabled>
+    <tileID>TILE_3</tileID>
+    <label>[ • 𝗠𝗲𝗻𝘂 • ]</label>
+    <iconType>CUSTOM</iconType>
+    <icon>THUMB_UP</icon>
+    <customIconPath>content://com.android.externalstorage.documents/document/primary%3A0%2Fview_vision_eye_icon_195036.png</customIconPath>
+    <shouldCollapsePanel>false</shouldCollapsePanel>
+  </trigger>
+  <trigger type="user_interface_event">
+    <useDefaultName>true</useDefaultName>
+    <name>UI Event: Text selection changed package th.in.robinhood.rider </name>
+    <enabled>true</enabled>
+    <accessibilityEventType>TYPE_VIEW_TEXT_SELECTION_CHANGED</accessibilityEventType>
+    <packageNameFilter>th.in.robinhood.rider</packageNameFilter>
+    <textMatchType>CONTAINS_TEXT</textMatchType>
+    <textFilter></textFilter>
+    <removeNonPrintableCharacters>false</removeNonPrintableCharacters>
+  </trigger>
+  <trigger type="quick_settings_tile_selected">
+    <useDefaultName>false</useDefaultName>
+    <name>Username Tile1</name>
+    <enabled>true</enabled>
+    <tileID>TILE_1</tileID>
+    <label>Username Tile1</label>
+    <iconType>BUILTIN</iconType>
+    <icon>ACCOUNTS</icon>
+    <customIconPath>/storage/emulated/0/Pictures/game_icon_user_pay_rank_count.png</customIconPath>
+    <shouldCollapsePanel>false</shouldCollapsePanel>
+  </trigger>
+  <trigger type="notification_status_bar_displayed">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐀𝐮𝐭𝐨 𝐑𝐮𝐧</name>
+    <enabled>false</enabled>
+    <packageNameFilter>th.in.robinhood.rider</packageNameFilter>
+    <textMatchField>TEXT</textMatchField>
+    <textMatchType>CONTAINS_TEXT</textMatchType>
+    <textFilter>rider</textFilter>
+    <ignoreRegular>false</ignoreRegular>
+    <ignoreOngoing>false</ignoreOngoing>
+    <ignoreGroupSummary>false</ignoreGroupSummary>
+  </trigger>
+  <trigger type="user_interface_event">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐂𝐥𝐢𝐜𝐤𝐞𝐝  </name>
+    <enabled>false</enabled>
+    <accessibilityEventType>TYPE_VIEW_CLICKED</accessibilityEventType>
+    <packageNameFilter>th.in.robinhood.rider</packageNameFilter>
+    <textMatchType>CONTAINS_TEXT</textMatchType>
+    <textFilter></textFilter>
+    <removeNonPrintableCharacters>false</removeNonPrintableCharacters>
+  </trigger>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 0 • ]</name>
+    <expression>index==0</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 1 • ]</name>
+    <expression>index==1</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 1. • ]</name>
+    <expression>index==1</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 10 • ]</name>
+    <expression>index==10</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 11 • ]</name>
+    <expression>index==11</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 12 • ]</name>
+    <expression>index==12</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 2 • ]</name>
+    <expression>index==2</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 2. • ]</name>
+    <expression>index==2</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 3 • ]</name>
+    <expression>index==3</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 4 • ]</name>
+    <expression>index==04</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 6 • ]</name>
+    <expression>index==6</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 6.0 • ]</name>
+    <expression>(index==0)</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 6.2• ]</name>
+    <expression>(index==2)</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 6.3 • ]</name>
+    <expression>(index==3)</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 6.4 • ]</name>
+    <expression>(index==4)</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 6.5 • ]</name>
+    <expression>(index==5)</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 6.6 • ]</name>
+    <expression>(index==6)</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 6.7 • ]</name>
+    <expression>(index==7)</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 6.8• ]</name>
+    <expression>index==8</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 6.9• ]</name>
+    <expression>index==9</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 6.𝟏 • ]</name>
+    <expression>(index==1)</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 7 • ]</name>
+    <expression>index==7</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 8 • ]</name>
+    <expression>index==8</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 9 • ]</name>
+    <expression>index==9</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝟏 • ]</name>
+    <expression>index==0</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝟏 • ] ❗</name>
+    <expression>(index==0)</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝟏.3 • ]</name>
+    <expression>(index==3)</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝟏.5• ]</name>
+    <expression>(index==5)</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝟏.6• ]</name>
+    <expression>(index==6)</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝟏.𝟎 • ]</name>
+    <expression>(index==0)</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝟏.𝟏 • ]</name>
+    <expression>(index==1)</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝟏.𝟐 • ]</name>
+    <expression>(index==2)</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝟏.𝟑 • ]</name>
+    <expression>(index==3)</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝟏.𝟒 • ]</name>
+    <expression>(index==4)</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝟐 • ]</name>
+    <expression>(index==1)</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝟐 • ]❗</name>
+    <expression>(index==1)</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝟐.𝟎 • ]</name>
+    <expression>(index==0)</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝟐.𝟏 • ]</name>
+    <expression>(index==1)</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝟐.𝟐 • ]</name>
+    <expression>(index==2)</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝟐.𝟑 • ]</name>
+    <expression>index==3</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝟐.𝟒 • ]</name>
+    <expression>(index==4)</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝟑 • ]</name>
+    <expression>(index==2)</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝟑.6 • ]</name>
+    <expression>(index==6)</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝟑.𝟎 • ]</name>
+    <expression>index==0</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝟑.𝟏 • ]</name>
+    <expression>index==1 </expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝟑.𝟐 • ]</name>
+    <expression>index==2</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝟑.𝟑 • ]</name>
+    <expression>(index==3)</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝟑.𝟒 • ]</name>
+    <expression>(index==4)</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝟑.𝟓 • ]</name>
+    <expression>(index==5)</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝟒 • ]</name>
+    <expression>(index==3)</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝟒.𝟎 • ]</name>
+    <expression>index==0</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝟒.𝟏 • ]</name>
+    <expression>index==1 </expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝟒.𝟐 • ]</name>
+    <expression>index==2</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝟓 • ]</name>
+    <expression>(index==4)</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ •0.• ]</name>
+    <expression>index==0</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>[ •5• ]</name>
+    <expression>index==5</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>true</useDefaultName>
+    <name>Expression: eval(PHANToM_Key0);</name>
+    <expression>eval(PHANToM_Key0);</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>true</useDefaultName>
+    <name>Expression: eval(response)</name>
+    <expression>eval(response)</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>Expression: Ok_2</name>
+    <expression>Ok_2 &gt; "";</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>true</useDefaultName>
+    <name>Expression: op &gt;= 100</name>
+    <expression>op &gt;= 100</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>true</useDefaultName>
+    <name>Expression: op &gt;= 250</name>
+    <expression>op &gt;= 250</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>Hub Master Version</name>
+    <expression>global_Keys_Lock == true and 
+global_Version == "Kamui"</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>Hub Master Version.</name>
+    <expression>
+global_Version == "Kamui"</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>Menu Page </name>
+    <expression>trigger == "Username Tile1"</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>Menu Page Kamui</name>
+    <expression>trigger == "PHANToM Tile 2 P"</expression>
+  </condition>
+  <condition type="flow_enabled">
+    <useDefaultName>false</useDefaultName>
+    <name>Null - 1</name>
+    <flowName>☔ [ • 𝟒.𝟏 𝐅𝐢𝐱 • ] ☔</flowName>
+  </condition>
+  <condition type="flow_enabled">
+    <useDefaultName>false</useDefaultName>
+    <name>Null - 1.2</name>
+    <flowName>☔ [ • 𝟒.𝟏 𝐅𝐢𝐱 • ] ☔</flowName>
+  </condition>
+  <condition type="flow_enabled">
+    <useDefaultName>false</useDefaultName>
+    <name>Null - 2</name>
+    <flowName>☔ [ • 𝟒.𝟎 𝐅𝐢𝐱 • ] ☔</flowName>
+  </condition>
+  <condition type="flow_enabled">
+    <useDefaultName>false</useDefaultName>
+    <name>Null - 2.2</name>
+    <flowName>☔ [ • 𝟒.𝟎 𝐅𝐢𝐱 • ] ☔</flowName>
+  </condition>
+  <condition type="flow_enabled">
+    <useDefaultName>false</useDefaultName>
+    <name>Null - 3</name>
+    <flowName>☔ [ • 𝐎𝐧𝐞 𝐬𝐡𝐨𝐭  • ] ☔</flowName>
+  </condition>
+  <condition type="flow_enabled">
+    <useDefaultName>false</useDefaultName>
+    <name>Null - 3.2</name>
+    <flowName>🌟 [ • 𝐂𝐥𝐨𝐬𝐞 𝐭𝐡𝐞 𝐚𝐩𝐩 • ] 🌟</flowName>
+  </condition>
+  <condition type="flow_enabled">
+    <useDefaultName>false</useDefaultName>
+    <name>Null - 4</name>
+    <flowName>☔ [ • 𝐀𝐮𝐭𝐨 𝐑𝐮𝐧 • ] ☔</flowName>
+  </condition>
+  <condition type="flow_enabled">
+    <useDefaultName>false</useDefaultName>
+    <name>Null - 4.2</name>
+    <flowName>☔ [ • 𝐀𝐮𝐭𝐨 𝐑𝐮𝐧 • ] ☔</flowName>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>order</name>
+    <expression>if (index == null) index = 0;
+
+if (index &lt; length( Kamui ))
+{value = Kamui [index];index = index + 1;
+return true;}
+else
+{index = null;
+  return false;}</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>PHANToM Shot</name>
+    <expression>trigger == "PHANToM RBH Touch"</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>PHANToM Version</name>
+    <expression>global_Keys_Lock == true and 
+global_Version == "PHANToM_Full_Lock"</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>PHANToM Version.</name>
+    <expression>
+global_Version == "PHANToM_Full_Lock"</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>Text </name>
+    <expression>Text &gt; "";</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>UI ABC</name>
+    <expression>NOFACE_A == null and
+NOFACE_B == null and
+NOFACE_C == null ;</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>UI KILO
+
+NOFACEาา</name>
+    <expression>
+range_1 == null and
+range_2 == null and
+range_3 == null and
+range_11 == null and
+range_21 == null and
+range_31 == null ;
+
+</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>สไลด์-1</name>
+    <expression>slide1 &gt; "";</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐎𝐫𝐝𝐞𝐫_𝟏</name>
+    <expression>slide2 &gt; "";</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐎𝐫𝐝𝐞𝐫_𝟐</name>
+    <expression>slide3 &gt; "";</expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐬𝐥𝐢𝐝𝐞𝟏</name>
+    <expression>slide1 &gt; "";</expression>
+  </condition>
+  <action type="set_flow_state">
+    <useDefaultName>false</useDefaultName>
+    <name> [ • 𝐒𝐞𝐭 𝐚𝐩𝐩 • ]</name>
+    <enable>true</enable>
+    <includeFlowNamePatternList>🌟 [ • 𝐒𝐞𝐭 𝐚𝐩𝐩 • ] 🌟</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="execute_flows">
+    <useDefaultName>false</useDefaultName>
+    <name> [ • 𝐒𝐞𝐭 𝐚𝐩𝐩𝐬 • ]</name>
+    <includeFlowNamePatternList>🌟 [ • 𝐒𝐞𝐭 𝐚𝐩𝐩 • ] 🌟</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+    <skipDisabledFlowsWithoutError>false</skipDisabledFlowsWithoutError>
+    <waitForFlowsToFinish>false</waitForFlowsToFinish>
+    <returnLocalVariablesToCallingFlow>false</returnLocalVariablesToCallingFlow>
+  </action>
+  <action type="input_dialog">
+    <useDefaultName>false</useDefaultName>
+    <name> [ • 𝐒𝐞𝐭 𝐬𝐲𝐬𝐭𝐞𝐦 • ] </name>
+    <title>            ⭐ [ • 𝐒𝐞𝐭 𝐬𝐲𝐬𝐭𝐞𝐦 • ] ⭐</title>
+    <inputDialogType>SINGLE_CHOICE_MENU</inputDialogType>
+    <prompt></prompt>
+    <inputValues>       [ • 𝐒𝐞𝐭 𝐎𝐜𝐫 • ],       [ • 𝐒𝐜𝐚𝐥𝐞 𝐀𝐧𝐢𝐦𝐚𝐭𝐢𝐨𝐧 • ]  ({global_scale} 𝐦𝐬),       [ •  𝐨𝐟𝐟  𝐒𝐜𝐚𝐥𝐞• ] {global_scale1},       [ • 𝐒𝐞𝐭 𝐃𝐩𝐢 • ] ({global_DPI} 𝐃𝐩𝐢),       [ • 𝐒𝐞𝐭 𝐚𝐩𝐩 • ],       [ • 𝐤𝐞𝐲𝐛𝐨𝐚𝐫𝐝 𝐬𝐰𝐢𝐭𝐜𝐡 • ] {global_T1},⏪𝐁𝐥𝐚𝐜𝐤</inputValues>
+    <defaultValue></defaultValue>
+    <titleFontSize>SP_18</titleFontSize>
+    <promptFontSize>DEFAULT</promptFontSize>
+    <fontSize>SP_18</fontSize>
+    <timeoutEnabled>false</timeoutEnabled>
+    <timeout>60000</timeout>
+    <defaultValueOnTimeout></defaultValueOnTimeout>
+    <showWhenLocked>false</showWhenLocked>
+    <turnScreenOn>false</turnScreenOn>
+    <keepScreenOn>false</keepScreenOn>
+    <enlargeDialogWidth>false</enlargeDialogWidth>
+    <keyboardCapitalizeSentences>false</keyboardCapitalizeSentences>
+  </action>
+  <action type="update_quick_settings_tile">
+    <useDefaultName>false</useDefaultName>
+    <name> Tile 2</name>
+    <tileID>TILE_1</tileID>
+    <label>4.1 FIX</label>
+    <iconType>BUILTIN</iconType>
+    <icon>CHAR_A</icon>
+    <customIconPath></customIconPath>
+    <state>ACTIVE</state>
+  </action>
+  <action type="update_quick_settings_tile">
+    <useDefaultName>false</useDefaultName>
+    <name> Tile 2.2</name>
+    <tileID>TILE_1</tileID>
+    <label>4.1 FIX</label>
+    <iconType>BUILTIN</iconType>
+    <icon>INFO</icon>
+    <customIconPath></customIconPath>
+    <state>ACTIVE</state>
+  </action>
+  <action type="notification_screen">
+    <useDefaultName>false</useDefaultName>
+    <name> ❤️‍🔥 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 ❤️‍🔥</name>
+    <showText>true</showText>
+    <text>❤️‍🔥 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨  𝐦𝐞𝐧𝐮 𝐊𝐚𝐦𝐮𝐢 ❤️‍🔥</text>
+    <widgetName></widgetName>
+    <width></width>
+    <height></height>
+    <stretchToFillArea>false</stretchToFillArea>
+    <opacity>1.00</opacity>
+    <durationLong>false</durationLong>
+    <customPosition>false</customPosition>
+    <gravityType>TOP_LEFT</gravityType>
+    <xOffset>0</xOffset>
+    <yOffset>0</yOffset>
+  </action>
+  <action type="control_user_interface">
+    <useDefaultName>false</useDefaultName>
+    <name> 𝗣𝗹𝗮𝘆 𝗢𝗰𝗿</name>
+    <script>touchGesture(0, 1, newList(162, 172));
+sleep(2800);
+touchGesture(0, 1, newList(288, 168));
+
+//เพลค้าง</script>
+  </action>
+  <action type="input_dialog">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • menu Mod • ]</name>
+    <title>                  [ • 𝐑𝐨𝐛𝐢𝐧𝐡𝐨𝐨𝐝 • ]</title>
+    <inputDialogType>SINGLE_CHOICE_MENU</inputDialogType>
+    <prompt></prompt>
+    <inputValues>    [ • 𝐏𝐨𝐩 𝐮𝐩 • ] {global_Popup} ,   𝐒𝐞𝐧𝐝 𝐧𝐮𝐦𝐛𝐞𝐫 ,    [ • 𝐒𝐞𝐭 𝐓𝐞𝐱𝐭  𝟒.𝟏 • ]  {global_SetText} ,    [ • 𝐒𝐞𝐭 𝐓𝐞𝐱𝐭  𝟒.𝟎 • ]  {global_SetText1} ,    [ • 𝐎𝐧𝐞 𝐬𝐡𝐨𝐭 • ] {global_oneshot} ,    [ • 𝐒𝐞𝐭 𝐛𝐮𝐭𝐭𝐨𝐧 𝐱𝐲 • ]   ,    [ • 𝐒𝐩𝐞𝐞𝐝 𝐍𝐮𝐦𝐛𝐞𝐫 • ] ( {global_Speed} )𝐦𝐬,    𝐒𝐞𝐭𝐭𝐢𝐧𝐠𝐬,    [ • 𝐨𝐟𝐟  𝐀𝐧𝐢𝐦𝐚𝐭𝐢𝐨𝐧 • ] {global_scale1},    [ • 𝐒𝐜𝐚𝐥𝐞 𝐀𝐧𝐢𝐦𝐚𝐭𝐢𝐨𝐧 • ]  ({global_scale} )𝐦𝐬,    [ • 𝐒𝐞𝐭 𝐃𝐩𝐢 • ] ({global_DPI} )𝐃𝐩𝐢,    [ • 𝐒𝐞𝐭 𝐚𝐩𝐩 • ],    [ • 𝐬𝐰𝐢𝐭𝐜𝐡 𝐤𝐞𝐲𝐛𝐨𝐚𝐫𝐝 • ] {global_Show},⪻⪻ 𝐄𝐱𝐢𝐭</inputValues>
+    <defaultValue></defaultValue>
+    <titleFontSize>SP_18</titleFontSize>
+    <promptFontSize>DEFAULT</promptFontSize>
+    <fontSize>SP_18</fontSize>
+    <timeoutEnabled>false</timeoutEnabled>
+    <timeout>600</timeout>
+    <defaultValueOnTimeout></defaultValueOnTimeout>
+    <showWhenLocked>false</showWhenLocked>
+    <turnScreenOn>false</turnScreenOn>
+    <keepScreenOn>false</keepScreenOn>
+    <enlargeDialogWidth>false</enlargeDialogWidth>
+    <keyboardCapitalizeSentences>false</keyboardCapitalizeSentences>
+  </action>
+  <action type="set_flow_state">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝐀𝐮𝐭𝐨 𝐑𝐮𝐧 • ]</name>
+    <enable>true</enable>
+    <includeFlowNamePatternList>🐣 [ • 𝐀𝐮𝐭𝐨 𝐑𝐮𝐧 • ] 🐣</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="notification_screen">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝐁𝐥𝐚𝐜𝐤 • ]</name>
+    <showText>true</showText>
+    <text>🔁𝐁𝐥𝐚𝐜𝐤</text>
+    <widgetName></widgetName>
+    <width></width>
+    <height></height>
+    <stretchToFillArea>false</stretchToFillArea>
+    <opacity>1.00</opacity>
+    <durationLong>false</durationLong>
+    <customPosition>false</customPosition>
+    <gravityType>TOP_LEFT</gravityType>
+    <xOffset>0</xOffset>
+    <yOffset>0</yOffset>
+  </action>
+  <action type="set_flow_state">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝐆𝐞𝐭 𝐚𝐮𝐭𝐨 • ]</name>
+    <enable>true</enable>
+    <includeFlowNamePatternList>🐣 [ • 𝐆𝐞𝐭 - 𝐀𝐮𝐭𝐨 • ] 🐣</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="hide_custom_widget_overlay">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝐇𝐢𝐝𝐞  𝐖𝐢𝐝𝐠𝐞𝐭 • ]</name>
+    <overlayNames>"keyboard "</overlayNames>
+  </action>
+  <action type="input_dialog">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝐊𝐞𝐲𝐛𝐨𝐚𝐫𝐝  • ]</name>
+    <title>             📱[ • 𝐊𝐞𝐲𝐛𝐨𝐚𝐫𝐝  • ]📱</title>
+    <inputDialogType>SINGLE_CHOICE_MENU</inputDialogType>
+    <prompt></prompt>
+    <inputValues>                 [ • 𝐆-𝐛𝐨𝐚𝐫𝐝 • ] {global_Gboard} ,                  [ • 𝐍𝐞𝐭𝐟𝐥𝐢𝐱  • ]  {global_Netflix} ,                    [ • 𝐇𝐮𝐛  • ] {global_Hub},◀️𝐄𝐱𝐢𝐭</inputValues>
+    <defaultValue></defaultValue>
+    <titleFontSize>SP_20</titleFontSize>
+    <promptFontSize>DEFAULT</promptFontSize>
+    <fontSize>SP_18</fontSize>
+    <timeoutEnabled>false</timeoutEnabled>
+    <timeout>1000</timeout>
+    <defaultValueOnTimeout></defaultValueOnTimeout>
+    <showWhenLocked>false</showWhenLocked>
+    <turnScreenOn>false</turnScreenOn>
+    <keepScreenOn>false</keepScreenOn>
+    <enlargeDialogWidth>false</enlargeDialogWidth>
+    <keyboardCapitalizeSentences>false</keyboardCapitalizeSentences>
+  </action>
+  <action type="input_dialog">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝐋𝐢𝐧𝐞 𝐦𝐚𝐧 • ]</name>
+    <title>             🌟 [ • 𝐋𝐢𝐧𝐞 𝐦𝐚𝐧 • ] 🌟</title>
+    <inputDialogType>SINGLE_CHOICE_MENU</inputDialogType>
+    <prompt></prompt>
+    <inputValues>                    [ • 𝐀𝐮𝐭𝐨 𝐑𝐮𝐧 • ] {global_LM},                     [ • 𝐆𝐞𝐭 𝐚𝐮𝐭𝐨 • ] {global_LM1},                       [ • 𝐒𝐞𝐥𝐞𝐜𝐭 • ] {global_LM2},❗𝐂𝐥𝐞𝐚𝐫 𝐅𝐥𝐨𝐰𝐬❗ ,⏪ 𝐁𝐥𝐚𝐜𝐤</inputValues>
+    <defaultValue></defaultValue>
+    <titleFontSize>SP_20</titleFontSize>
+    <promptFontSize>DEFAULT</promptFontSize>
+    <fontSize>SP_18</fontSize>
+    <timeoutEnabled>false</timeoutEnabled>
+    <timeout>60000</timeout>
+    <defaultValueOnTimeout></defaultValueOnTimeout>
+    <showWhenLocked>false</showWhenLocked>
+    <turnScreenOn>false</turnScreenOn>
+    <keepScreenOn>false</keepScreenOn>
+    <enlargeDialogWidth>false</enlargeDialogWidth>
+    <keyboardCapitalizeSentences>false</keyboardCapitalizeSentences>
+  </action>
+  <action type="input_dialog">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝐌𝐚𝐜𝐫𝐨 • ] </name>
+    <title>                    [ • 𝐌𝐚𝐜𝐫𝐨 • ]</title>
+    <inputDialogType>SINGLE_CHOICE_MENU</inputDialogType>
+    <prompt></prompt>
+    <inputValues>                  ❤️‍🔥[ •𝐇𝐢𝐝𝐞 𝐤𝐞𝐲𝐛𝐨𝐚𝐫𝐝 • ]❤️‍🔥,                    👁️‍🗨️[ • 𝐨𝐧 𝐤𝐞𝐲𝐛𝐨𝐚𝐫𝐝 • ]👁️‍🗨️</inputValues>
+    <defaultValue></defaultValue>
+    <titleFontSize>DEFAULT</titleFontSize>
+    <promptFontSize>DEFAULT</promptFontSize>
+    <fontSize>DEFAULT</fontSize>
+    <timeoutEnabled>false</timeoutEnabled>
+    <timeout>60000</timeout>
+    <defaultValueOnTimeout></defaultValueOnTimeout>
+    <showWhenLocked>false</showWhenLocked>
+    <turnScreenOn>false</turnScreenOn>
+    <keepScreenOn>false</keepScreenOn>
+    <enlargeDialogWidth>false</enlargeDialogWidth>
+    <keyboardCapitalizeSentences>false</keyboardCapitalizeSentences>
+  </action>
+  <action type="input_dialog">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝐌𝐞𝐧𝐮 • ]</name>
+    <title>                 📍 [ •  𝐌𝐞𝐧𝐮 • ] 📍</title>
+    <inputDialogType>SINGLE_CHOICE_MENU</inputDialogType>
+    <prompt></prompt>
+    <inputValues>                ⭐ [ • 𝐑𝐨𝐛𝐢𝐧𝐡𝐨𝐨𝐝 • ] ⭐,              🌟 [  • 𝐒𝐞𝐭 𝐬𝐲𝐬𝐭𝐞𝐦 • ] 🌟,                 ☎️ [ • 𝐒𝐭𝐨𝐩 𝐟𝐥𝐨𝐰𝐞 • ] ☎️,⏪𝐞𝐱𝐢𝐭</inputValues>
+    <defaultValue></defaultValue>
+    <titleFontSize>SP_20</titleFontSize>
+    <promptFontSize>DEFAULT</promptFontSize>
+    <fontSize>SP_18</fontSize>
+    <timeoutEnabled>false</timeoutEnabled>
+    <timeout>600</timeout>
+    <defaultValueOnTimeout></defaultValueOnTimeout>
+    <showWhenLocked>false</showWhenLocked>
+    <turnScreenOn>false</turnScreenOn>
+    <keepScreenOn>false</keepScreenOn>
+    <enlargeDialogWidth>false</enlargeDialogWidth>
+    <keyboardCapitalizeSentences>false</keyboardCapitalizeSentences>
+  </action>
+  <action type="input_dialog">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝐑𝐨𝐛𝐢𝐧𝐡𝐨𝐨𝐝 • ]</name>
+    <title>            🔔[ • 𝐑𝐨𝐛𝐢𝐧𝐡𝐨𝐨𝐝 • ]🔔</title>
+    <inputDialogType>SINGLE_CHOICE_MENU</inputDialogType>
+    <prompt></prompt>
+    <inputValues>    [ • 𝐏𝐨𝐩 𝐮𝐩 • ] {global_Popup} ,   𝐒𝐞𝐧𝐝 𝐧𝐮𝐦𝐛𝐞𝐫 ,    [ • 𝐒𝐞𝐭 𝐓𝐞𝐱𝐭  𝟒.𝟏 • ]  {global_SetText} ,    [ • 𝐒𝐞𝐭 𝐓𝐞𝐱𝐭  𝟒.𝟎 • ]  {global_SetText1} ,    [ • 𝐎𝐧𝐞 𝐬𝐡𝐨𝐭 • ] {global_oneshot} ,    [ • 𝐒𝐩𝐞𝐞𝐝 𝐍𝐮𝐦𝐛𝐞𝐫  • ] ( {global_Speed} )Ms,⏪ 𝐁𝐥𝐚𝐜𝐤</inputValues>
+    <defaultValue></defaultValue>
+    <titleFontSize>SP_18</titleFontSize>
+    <promptFontSize>DEFAULT</promptFontSize>
+    <fontSize>SP_18</fontSize>
+    <timeoutEnabled>false</timeoutEnabled>
+    <timeout>1000</timeout>
+    <defaultValueOnTimeout></defaultValueOnTimeout>
+    <showWhenLocked>false</showWhenLocked>
+    <turnScreenOn>false</turnScreenOn>
+    <keepScreenOn>false</keepScreenOn>
+    <enlargeDialogWidth>false</enlargeDialogWidth>
+    <keyboardCapitalizeSentences>false</keyboardCapitalizeSentences>
+  </action>
+  <action type="set_flow_state">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝐒𝐞𝐥𝐞𝐜𝐭 • ]</name>
+    <enable>true</enable>
+    <includeFlowNamePatternList>🐣 [ • 𝐒𝐞𝐥𝐞𝐜𝐭 • ] 🐣</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="input_dialog">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝐒𝐞𝐭 𝐎𝐜𝐫 • ]</name>
+    <title>            👁️‍🗨️ [ • 𝐒𝐞𝐭 𝐎𝐜𝐫 • ] 👁️‍🗨️</title>
+    <inputDialogType>SINGLE_CHOICE_MENU</inputDialogType>
+    <prompt></prompt>
+    <inputValues>{global_one},𝐒𝐞𝐭 𝐗 ( {global_X1} ),𝐒𝐞𝐭 𝐘 ( {global_Y1} ),{global_two},𝐒𝐞𝐭 𝐗 ( {global_X2} ),𝐒𝐞𝐭 𝐘 ( {global_Y2} ),{global_three},𝐒𝐞𝐭 𝐗 ( {global_X3} ),𝐒𝐞𝐭 𝐘 ( {global_Y3} ),⪻⪻ 𝐄𝐱𝐢𝐭</inputValues>
+    <defaultValue></defaultValue>
+    <titleFontSize>SP_20</titleFontSize>
+    <promptFontSize>DEFAULT</promptFontSize>
+    <fontSize>SP_18</fontSize>
+    <timeoutEnabled>false</timeoutEnabled>
+    <timeout>1000</timeout>
+    <defaultValueOnTimeout></defaultValueOnTimeout>
+    <showWhenLocked>false</showWhenLocked>
+    <turnScreenOn>false</turnScreenOn>
+    <keepScreenOn>false</keepScreenOn>
+    <enlargeDialogWidth>false</enlargeDialogWidth>
+    <keyboardCapitalizeSentences>false</keyboardCapitalizeSentences>
+  </action>
+  <action type="input_dialog">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝐒𝐞𝐭 𝐟𝐥𝐨𝐰𝐞 𝐬𝐭𝐨𝐩 • ]</name>
+    <title>          🔺 [ • 𝐒𝐞𝐭 𝐟𝐥𝐨𝐰𝐞 𝐬𝐭𝐨𝐩 • ] 🔺</title>
+    <inputDialogType>SINGLE_CHOICE_MENU</inputDialogType>
+    <prompt></prompt>
+    <inputValues>               💢 [ • 𝐒𝐭𝐨𝐩 𝐟𝐥𝐨𝐰𝐞 • ] 💢,              ⛔[ • 𝐇𝐢𝐝𝐞  𝐖𝐢𝐝𝐠𝐞𝐭 • ]⛔,⏪𝐁𝐥𝐚𝐜𝐤</inputValues>
+    <defaultValue></defaultValue>
+    <titleFontSize>SP_20</titleFontSize>
+    <promptFontSize>DEFAULT</promptFontSize>
+    <fontSize>SP_18</fontSize>
+    <timeoutEnabled>false</timeoutEnabled>
+    <timeout>60000</timeout>
+    <defaultValueOnTimeout></defaultValueOnTimeout>
+    <showWhenLocked>false</showWhenLocked>
+    <turnScreenOn>false</turnScreenOn>
+    <keepScreenOn>false</keepScreenOn>
+    <enlargeDialogWidth>false</enlargeDialogWidth>
+    <keyboardCapitalizeSentences>false</keyboardCapitalizeSentences>
+  </action>
+  <action type="input_dialog">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝐟𝐥𝐨𝐰𝐞 𝐬𝐭𝐨𝐩 • ]</name>
+    <title>                  [ • 𝐟𝐥𝐨𝐰𝐞 𝐬𝐭𝐨𝐩 • ]</title>
+    <inputDialogType>SINGLE_CHOICE_MENU</inputDialogType>
+    <prompt></prompt>
+    <inputValues>    [ • 𝐇𝐢𝐝𝐞  𝐤𝐞𝐲𝐛𝐨𝐚𝐫𝐝 • ]{global_hide},    [ • 𝐟𝐥𝐨𝐰𝐞 𝐬𝐭𝐨𝐩 •],⪻⪻ 𝐄𝐱𝐢𝐭</inputValues>
+    <defaultValue></defaultValue>
+    <titleFontSize>SP_18</titleFontSize>
+    <promptFontSize>DEFAULT</promptFontSize>
+    <fontSize>SP_18</fontSize>
+    <timeoutEnabled>false</timeoutEnabled>
+    <timeout>600</timeout>
+    <defaultValueOnTimeout></defaultValueOnTimeout>
+    <showWhenLocked>false</showWhenLocked>
+    <turnScreenOn>false</turnScreenOn>
+    <keepScreenOn>false</keepScreenOn>
+    <enlargeDialogWidth>false</enlargeDialogWidth>
+    <keyboardCapitalizeSentences>false</keyboardCapitalizeSentences>
+  </action>
+  <action type="set_flow_state">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝐟𝐥𝐨𝐰𝐞 𝐬𝐭𝐨𝐩 •]</name>
+    <enable>false</enable>
+    <includeFlowNamePatternList>☔ [ • 𝟒.𝟎 𝐅𝐢𝐱 • ] ☔,☔ [ • 𝟒.𝟏 𝐅𝐢𝐱 • ] ☔,☔ [ • 𝐎𝐧𝐞 𝐬𝐡𝐨𝐭  • ] ☔,☔ [ • 𝐀𝐮𝐭𝐨 𝐑𝐮𝐧 • ] ☔</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="set_flow_state">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝐟𝐥𝐨𝐰𝐞 𝐬𝐭𝐨𝐩 •]
+     LM</name>
+    <enable>false</enable>
+    <includeFlowNamePatternList>🐣 [ • 𝐆𝐞𝐭 - 𝐀𝐮𝐭𝐨 • ] 🐣,🐣 [ • 𝐒𝐞𝐥𝐞𝐜𝐭 • ] 🐣,🐣 [ • 𝐀𝐮𝐭𝐨 𝐑𝐮𝐧 • ] 🐣</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="set_flow_state">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝐟𝐥𝐨𝐰𝐞 𝐬𝐭𝐨𝐩 •]
+ RBH</name>
+    <enable>false</enable>
+    <includeFlowNamePatternList>☔ [ • 𝐀𝐮𝐭𝐨 𝐑𝐮𝐧 • ] ☔,☔ [ • 𝐎𝐧𝐞 𝐬𝐡𝐨𝐭  • ] ☔,☔ [ • 𝟒.𝟎 𝐅𝐢𝐱 • ] ☔,☔ [ • 𝟒.𝟏 𝐅𝐢𝐱 • ] ☔</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="control_user_interface">
+    <useDefaultName>false</useDefaultName>
+    <name>[ • 𝐨𝐧 𝐤𝐞𝐲𝐛𝐨𝐚𝐫𝐝 • ]</name>
+    <script>touchGesture(0, 1, newList(493, 849));
+sleep(120);
+touchGesture(0, 1, newList(864, 1507));
+sleep(100);</script>
+  </action>
+  <action type="control_user_interface">
+    <useDefaultName>false</useDefaultName>
+    <name>[•𝐇𝐢𝐝𝐞 𝐤𝐞𝐲𝐛𝐨𝐚𝐫𝐝•]</name>
+    <script>clickById("com.kok_emm.mobile:id/card_btn_play_mode");
+sleep(120);
+touchGesture(0, 1, newList(864, 1507));
+sleep(100);</script>
+  </action>
+  <action type="http_request">
+    <useDefaultName>false</useDefaultName>
+    <name>API http html</name>
+    <url>https://raw.githubusercontent.com/Wachirakongit/Hub/main/Cod.html</url>
+    <verifyCertificates>true</verifyCertificates>
+    <basicAuthentication>false</basicAuthentication>
+    <username></username>
+    <clientCert>false</clientCert>
+    <clientCertPath></clientCertPath>
+    <httpMethod>GET</httpMethod>
+    <networkType>DEFAULT</networkType>
+    <httpContentType>X_WWW_FORM_URLENCODED</httpContentType>
+    <contentType>text/plain</contentType>
+    <generalTextData></generalTextData>
+    <formFieldList>Lastname=XYZ,Firstname=ABC</formFieldList>
+    <uploadFieldName>upload_field</uploadFieldName>
+    <uploadFilePath></uploadFilePath>
+    <binaryContentType>application/octet-stream</binaryContentType>
+    <binaryFilePath></binaryFilePath>
+    <timeout>60000</timeout>
+    <setCustomHTTPHeaders>false</setCustomHTTPHeaders>
+    <customHTTPHeaders></customHTTPHeaders>
+    <storeInVariable>true</storeInVariable>
+    <variable>response</variable>
+    <encoding></encoding>
+    <path>/storage/emulated/0/Download/file.bin</path>
+    <followRedirects>true</followRedirects>
+    <skipConnectivityCheck>false</skipConnectivityCheck>
+  </action>
+  <action type="control_user_interface">
+    <useDefaultName>false</useDefaultName>
+    <name>back</name>
+    <script>back()</script>
+  </action>
+  <action type="launch_app">
+    <useDefaultName>false</useDefaultName>
+    <name>BLACK APP
+
+NOFACE</name>
+    <packageName>th.in.robinhood.rider</packageName>
+    <className>com.ps.psrider.MainActivity</className>
+  </action>
+  <action type="control_user_interface">
+    <useDefaultName>false</useDefaultName>
+    <name>BOX
+Running ...
+
+แก้เงื่อนไข
+ตามต้องการรป  รไ.2</name>
+    <script>// รัศมี กิโลเมตร ที่ต้องการไปรับ
+pp = [0 to 7];
+range_1 = getBounds ("*0.??*\n??.0*");
+range_11 = getBounds ("*1.??*\n??.0*");
+
+range_2 = getBounds ("*\n2??.0*");
+range_21 = getBounds ("*\n4??.0*");
+
+range_3 = getBounds ("*ไม่มี*");
+range_31 = getBounds ("*ไม่มี*");
+
+
+pp = pp + 7;
+///ปรับตำแหน่งกด
+PHANToM_X = (640);
+
+PHANToM_Y = (-480);
+
+
+
+if(range_1 != null){
+ptx_1 = getElement(range_1,1);
+pty_1 = getElement(range_1,2);
+pty_1 = pty_1 +PHANToM_Y;
+ptx_1 = ptx_1 +PHANToM_X;
+touchGesture(0,10,newList( ptx_1, pty_1))}
+else if(range_2 != null){
+ptx_2 = getElement(range_2,1);
+pty_2 = getElement(range_2,2);
+pty_2 = pty_2 +PHANToM_Y;
+ptx_2 = ptx_2 +PHANToM_X;
+touchGesture(0,10,newList( ptx_2, pty_2))}
+else if(range_3 != null){
+ptx_3 = getElement(range_3,1);
+pty_3 = getElement(range_3,2);
+pty_3 = pty_3 +PHANToM_Y;
+ptx_3 = ptx_3 +PHANToM_X;
+touchGesture(0,10,newList( ptx_3, pty_3))}
+
+else if(range_11 != null){
+ptx_11 = getElement(range_11,1);
+pty_11 = getElement(range_11,2);
+pty_11 = pty_11 +PHANToM_Y;
+ptx_11 = ptx_11 +PHANToM_X;
+touchGesture(0,10,newList( ptx_11, pty_11))}
+
+else if(range_21 != null){
+ptx_21 = getElement(range_21,1);
+pty_21 = getElement(range_21,2);
+pty_21 = pty_21 +PHANToM_Y;
+ptx_21 = ptx_21 +PHANToM_X;
+touchGesture(0,10,newList( ptx_21, pty_21))}
+
+else if(range_31 != null){
+ptx_31 = getElement(range_31,1);
+pty_31 = getElement(range_31,2);
+pty_31 = pty_31 +PHANToM_Y;
+ptx_31 = ptx_31 +PHANToM_X;
+touchGesture(0,10,newList( ptx_31, pty_31))}</script>
+  </action>
+  <action type="control_user_interface">
+    <useDefaultName>false</useDefaultName>
+    <name>checkออเดอร์</name>
+    <script>NOFACE_A = getBounds("*Paste*");
+NOFACE_B = getBounds("*ร้านค้า*");
+NOFACE_C = getBounds("*รับสินค้า*");
+NOFACE_D = getBounds("*Paste*");
+NOFACE_E = getBounds("*กรุณา*");</script>
+  </action>
+  <action type="copy_text_to_clipboard">
+    <useDefaultName>false</useDefaultName>
+    <name>CLEAN
+NUMBER</name>
+    <text></text>
+  </action>
+  <action type="clear_automagic_log">
+    <useDefaultName>false</useDefaultName>
+    <name>Clear PHANToM Log</name>
+  </action>
+  <action type="control_user_interface">
+    <useDefaultName>true</useDefaultName>
+    <name>Control UI: global_Destination = "บางแม่นาง,บางเลน,เสาธงหิน"; Destination = ".*{global_Destination}.*"; Destination_List = replaceAll(Destination,',','.*|.*'); Destination_detect_14 = findAll(global_At14,'.*\n[0-9][0-9].[0-9]'); Destination_detect_14st = replaceAll(Destination_detect_14,'\n[0-9][0-9].[0-9]]',''</name>
+    <script>global_Destination = "บางแม่นาง,บางเลน,เสาธงหิน";
+Destination = ".*{global_Destination}.*";
+Destination_List = replaceAll(Destination,',','.*|.*');
+
+
+ Destination_detect_14 = findAll(global_At14,'.*\n[0-9][0-9].[0-9]');
+ Destination_detect_14st = replaceAll(Destination_detect_14,'\n[0-9][0-9].[0-9]]','');
+ Destination_detect_14nd =replace(Destination_detect_14st, '[', '');
+
+
+ destination_matches_14 = matches(Destination_detect_14nd,Destination_List);</script>
+  </action>
+  <action type="copy_text_from_clipboard">
+    <useDefaultName>false</useDefaultName>
+    <name>copy </name>
+    <variable>RBH</variable>
+  </action>
+  <action type="sleep">
+    <useDefaultName>false</useDefaultName>
+    <name>Delay</name>
+    <duration>400ms</duration>
+    <keepDeviceAwake>true</keepDeviceAwake>
+    <allowWakeupFromDeviceIdle>false</allowWakeupFromDeviceIdle>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>Dpi+value </name>
+    <script>global_DPI = value ;</script>
+  </action>
+  <action type="execute_root_command">
+    <useDefaultName>false</useDefaultName>
+    <name>Execute Dpi</name>
+    <command>wm density {global_DPI} </command>
+    <user></user>
+    <seContext></seContext>
+    <workingDirectory></workingDirectory>
+    <timeout>300000</timeout>
+    <variableStdout>stdout</variableStdout>
+    <variableStderr>stderr</variableStderr>
+    <variableExitCode>exit_code</variableExitCode>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>Gboard</name>
+    <script>global_Gboard = "𝐨𝐧 - 🟢"  ;
+global_Netflix= "𝐨𝐟𝐟 - 🔴" ;
+global_Hub = "𝐨𝐟𝐟 - 🔴" ;</script>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>global_Speed</name>
+    <script>global_Speed = value;</script>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>hide</name>
+    <script>global_hide ="𝐨𝐧 - 🟢"  ;
+global_Show = "𝐨𝐟𝐟 - 🔴" ;</script>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>Hub</name>
+    <script>global_Hub = "𝐨𝐧 - 🟢"  ;
+global_Gboard = "𝐨𝐟𝐟 - 🔴" ;
+global_Netflix= "𝐨𝐟𝐟 - 🔴" ;
+</script>
+  </action>
+  <action type="input_dialog">
+    <useDefaultName>true</useDefaultName>
+    <name>Input Dialog: Key_pass_Login Password password</name>
+    <title>Key_pass_Login</title>
+    <inputDialogType>PASSWORD</inputDialogType>
+    <prompt>password</prompt>
+    <inputValues></inputValues>
+    <defaultValue></defaultValue>
+    <titleFontSize>DEFAULT</titleFontSize>
+    <promptFontSize>DEFAULT</promptFontSize>
+    <fontSize>DEFAULT</fontSize>
+    <timeoutEnabled>false</timeoutEnabled>
+    <timeout>60000</timeout>
+    <defaultValueOnTimeout></defaultValueOnTimeout>
+    <showWhenLocked>false</showWhenLocked>
+    <turnScreenOn>false</turnScreenOn>
+    <keepScreenOn>false</keepScreenOn>
+    <enlargeDialogWidth>false</enlargeDialogWidth>
+    <keyboardCapitalizeSentences>false</keyboardCapitalizeSentences>
+  </action>
+  <action type="input_dialog">
+    <useDefaultName>true</useDefaultName>
+    <name>Input Dialog: User_name Password กรอกชื่อผู้ใช้</name>
+    <title>User_name</title>
+    <inputDialogType>PASSWORD</inputDialogType>
+    <prompt>กรอกชื่อผู้ใช้</prompt>
+    <inputValues></inputValues>
+    <defaultValue></defaultValue>
+    <titleFontSize>DEFAULT</titleFontSize>
+    <promptFontSize>DEFAULT</promptFontSize>
+    <fontSize>DEFAULT</fontSize>
+    <timeoutEnabled>false</timeoutEnabled>
+    <timeout>60000</timeout>
+    <defaultValueOnTimeout></defaultValueOnTimeout>
+    <showWhenLocked>false</showWhenLocked>
+    <turnScreenOn>false</turnScreenOn>
+    <keepScreenOn>false</keepScreenOn>
+    <enlargeDialogWidth>false</enlargeDialogWidth>
+    <keyboardCapitalizeSentences>false</keyboardCapitalizeSentences>
+  </action>
+  <action type="input_dialog">
+    <useDefaultName>true</useDefaultName>
+    <name>Input Dialog: ใส่รหัส Password </name>
+    <title>ใส่รหัส</title>
+    <inputDialogType>PASSWORD</inputDialogType>
+    <prompt></prompt>
+    <inputValues></inputValues>
+    <defaultValue></defaultValue>
+    <titleFontSize>DEFAULT</titleFontSize>
+    <promptFontSize>DEFAULT</promptFontSize>
+    <fontSize>DEFAULT</fontSize>
+    <timeoutEnabled>false</timeoutEnabled>
+    <timeout>60000</timeout>
+    <defaultValueOnTimeout></defaultValueOnTimeout>
+    <showWhenLocked>false</showWhenLocked>
+    <turnScreenOn>false</turnScreenOn>
+    <keepScreenOn>false</keepScreenOn>
+    <enlargeDialogWidth>false</enlargeDialogWidth>
+    <keyboardCapitalizeSentences>false</keyboardCapitalizeSentences>
+  </action>
+  <action type="input_dialog">
+    <useDefaultName>true</useDefaultName>
+    <name>Input Dialog: 𝐔𝐬𝐞𝐫𝐧𝐚𝐦𝐞 Password ใส่User name ที่เราตั้ง</name>
+    <title>𝐔𝐬𝐞𝐫𝐧𝐚𝐦𝐞</title>
+    <inputDialogType>PASSWORD</inputDialogType>
+    <prompt>ใส่User name ที่เราตั้ง</prompt>
+    <inputValues></inputValues>
+    <defaultValue></defaultValue>
+    <titleFontSize>DEFAULT</titleFontSize>
+    <promptFontSize>DEFAULT</promptFontSize>
+    <fontSize>DEFAULT</fontSize>
+    <timeoutEnabled>false</timeoutEnabled>
+    <timeout>60000</timeout>
+    <defaultValueOnTimeout></defaultValueOnTimeout>
+    <showWhenLocked>false</showWhenLocked>
+    <turnScreenOn>false</turnScreenOn>
+    <keepScreenOn>false</keepScreenOn>
+    <enlargeDialogWidth>false</enlargeDialogWidth>
+    <keyboardCapitalizeSentences>false</keyboardCapitalizeSentences>
+  </action>
+  <action type="input_dialog">
+    <useDefaultName>true</useDefaultName>
+    <name>Input Dialog: 𝐩𝐚𝐬𝐬𝐰𝐨𝐫𝐝 Password กรุณาใส่รหัสผ่านก่อนเข้าใช้งาน</name>
+    <title>𝐩𝐚𝐬𝐬𝐰𝐨𝐫𝐝</title>
+    <inputDialogType>PASSWORD</inputDialogType>
+    <prompt>กรุณาใส่รหัสผ่านก่อนเข้าใช้งาน</prompt>
+    <inputValues></inputValues>
+    <defaultValue></defaultValue>
+    <titleFontSize>DEFAULT</titleFontSize>
+    <promptFontSize>DEFAULT</promptFontSize>
+    <fontSize>DEFAULT</fontSize>
+    <timeoutEnabled>false</timeoutEnabled>
+    <timeout>60000</timeout>
+    <defaultValueOnTimeout></defaultValueOnTimeout>
+    <showWhenLocked>false</showWhenLocked>
+    <turnScreenOn>false</turnScreenOn>
+    <keepScreenOn>false</keepScreenOn>
+    <enlargeDialogWidth>false</enlargeDialogWidth>
+    <keyboardCapitalizeSentences>false</keyboardCapitalizeSentences>
+  </action>
+  <action type="http_request">
+    <useDefaultName>false</useDefaultName>
+    <name>Kill  Process Kamui</name>
+    <url>https://raw.githubusercontent.com/Wachirakongit/Hub/main/Cod.html</url>
+    <verifyCertificates>true</verifyCertificates>
+    <basicAuthentication>false</basicAuthentication>
+    <username></username>
+    <clientCert>false</clientCert>
+    <clientCertPath></clientCertPath>
+    <httpMethod>GET</httpMethod>
+    <networkType>DEFAULT</networkType>
+    <httpContentType>X_WWW_FORM_URLENCODED</httpContentType>
+    <contentType>text/plain</contentType>
+    <generalTextData></generalTextData>
+    <formFieldList>Lastname=XYZ,Firstname=ABC</formFieldList>
+    <uploadFieldName>upload_field</uploadFieldName>
+    <uploadFilePath></uploadFilePath>
+    <binaryContentType>application/octet-stream</binaryContentType>
+    <binaryFilePath></binaryFilePath>
+    <timeout>5000</timeout>
+    <setCustomHTTPHeaders>false</setCustomHTTPHeaders>
+    <customHTTPHeaders></customHTTPHeaders>
+    <storeInVariable>true</storeInVariable>
+    <variable>PHANToM_Key0</variable>
+    <encoding></encoding>
+    <path>/storage/emulated/0/Download/file.bin</path>
+    <followRedirects>true</followRedirects>
+    <skipConnectivityCheck>false</skipConnectivityCheck>
+  </action>
+  <action type="launch_app">
+    <useDefaultName>false</useDefaultName>
+    <name>Launch </name>
+    <packageName>cn.geektang.privacyspace</packageName>
+    <className>cn.geektang.privacyspace.ui.main.MainActivity</className>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>LM</name>
+    <script>global_LM = "𝐨𝐧 - 🟢"  ;
+</script>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>LM - off</name>
+    <script>global_LM = "𝐨𝐟𝐟 - 🔴" ;
+global_LM1 = "𝐨𝐟𝐟 - 🔴" ;
+global_LM2 = "𝐨𝐟𝐟 - 🔴" ;</script>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>LM 2</name>
+    <script>global_LM2 = "𝐨𝐧 - 🟢"  ;</script>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>LM1</name>
+    <script>global_LM1 = "𝐨𝐧 - 🟢"  ;</script>
+  </action>
+  <action type="control_user_interface">
+    <useDefaultName>false</useDefaultName>
+    <name>longclick</name>
+    <script>longclickByIdAndIndex ("",9) ;
+longclickByIdAndIndex ("",11) ;
+longclickByIdAndIndex ("",13) ;
+Kamui = getBounds ("Paste") ;</script>
+  </action>
+  <action type="control_user_interface">
+    <useDefaultName>false</useDefaultName>
+    <name>Maro</name>
+    <script>sleep(10);
+touchGesture(0, 2, newList(52, 157));
+sleep(60);
+touchGesture(0, 2, newList(145, 145));
+sleep(40);
+touchGesture(0, 1, newList(271, 151));</script>
+  </action>
+  <action type="message_dialog">
+    <useDefaultName>true</useDefaultName>
+    <name>Message Dialog: เกิดข้อผิดพลาด </name>
+    <title>เกิดข้อผิดพลาด</title>
+    <message></message>
+    <buttonLabel></buttonLabel>
+    <timeoutEnabled>false</timeoutEnabled>
+    <timeout>60000</timeout>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>Netflix</name>
+    <script>global_Netflix = "𝐨𝐧 - 🟢"  ;
+global_Gboard = "𝐨𝐟𝐟 - 🔴" ;
+global_Hub = "𝐨𝐟𝐟 - 🔴" ;</script>
+  </action>
+  <action type="notification_screen">
+    <useDefaultName>true</useDefaultName>
+    <name>Notification on Screen: ยูสเซอร์เนมถูกต้อง 
+</name>
+    <showText>true</showText>
+    <text>ยูสเซอร์เนมถูกต้อง 
+</text>
+    <widgetName></widgetName>
+    <width></width>
+    <height></height>
+    <stretchToFillArea>false</stretchToFillArea>
+    <opacity>1.00</opacity>
+    <durationLong>false</durationLong>
+    <customPosition>false</customPosition>
+    <gravityType>TOP_LEFT</gravityType>
+    <xOffset>0</xOffset>
+    <yOffset>0</yOffset>
+  </action>
+  <action type="notification_screen">
+    <useDefaultName>true</useDefaultName>
+    <name>Notification on Screen: รหัสผิดจ้า</name>
+    <showText>true</showText>
+    <text>รหัสผิดจ้า</text>
+    <widgetName></widgetName>
+    <width></width>
+    <height></height>
+    <stretchToFillArea>false</stretchToFillArea>
+    <opacity>1.00</opacity>
+    <durationLong>false</durationLong>
+    <customPosition>false</customPosition>
+    <gravityType>TOP_LEFT</gravityType>
+    <xOffset>0</xOffset>
+    <yOffset>0</yOffset>
+  </action>
+  <action type="notification_screen">
+    <useDefaultName>true</useDefaultName>
+    <name>Notification on Screen: รหัสผ่านไม่ถูกต้อง
+กรุณาขอรหัสใหม่หรือใส่อีกครั้ง</name>
+    <showText>true</showText>
+    <text>รหัสผ่านไม่ถูกต้อง
+กรุณาขอรหัสใหม่หรือใส่อีกครั้ง</text>
+    <widgetName></widgetName>
+    <width></width>
+    <height></height>
+    <stretchToFillArea>false</stretchToFillArea>
+    <opacity>1.00</opacity>
+    <durationLong>false</durationLong>
+    <customPosition>false</customPosition>
+    <gravityType>TOP_LEFT</gravityType>
+    <xOffset>0</xOffset>
+    <yOffset>0</yOffset>
+  </action>
+  <action type="notification_screen">
+    <useDefaultName>true</useDefaultName>
+    <name>Notification on Screen: ไม่พบข้อมูลผู้ใช้!</name>
+    <showText>true</showText>
+    <text>ไม่พบข้อมูลผู้ใช้!</text>
+    <widgetName></widgetName>
+    <width></width>
+    <height></height>
+    <stretchToFillArea>false</stretchToFillArea>
+    <opacity>1.00</opacity>
+    <durationLong>false</durationLong>
+    <customPosition>false</customPosition>
+    <gravityType>TOP_LEFT</gravityType>
+    <xOffset>0</xOffset>
+    <yOffset>0</yOffset>
+  </action>
+  <action type="notification_screen">
+    <useDefaultName>true</useDefaultName>
+    <name>Notification on Screen: ❤️‍🔥 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨  𝐦𝐞𝐧𝐮 𝐊𝐚𝐦𝐮𝐢 ❤️‍🔥</name>
+    <showText>true</showText>
+    <text>❤️‍🔥 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨  𝐦𝐞𝐧𝐮 𝐊𝐚𝐦𝐮𝐢 ❤️‍🔥</text>
+    <widgetName></widgetName>
+    <width></width>
+    <height></height>
+    <stretchToFillArea>false</stretchToFillArea>
+    <opacity>1.00</opacity>
+    <durationLong>false</durationLong>
+    <customPosition>false</customPosition>
+    <gravityType>TOP_LEFT</gravityType>
+    <xOffset>0</xOffset>
+    <yOffset>0</yOffset>
+  </action>
+  <action type="notification_screen">
+    <useDefaultName>true</useDefaultName>
+    <name>Notification on Screen: ⪻⪻ 𝐄𝐱𝐢𝐭</name>
+    <showText>true</showText>
+    <text>⪻⪻ 𝐄𝐱𝐢𝐭</text>
+    <widgetName></widgetName>
+    <width></width>
+    <height></height>
+    <stretchToFillArea>false</stretchToFillArea>
+    <opacity>1.00</opacity>
+    <durationLong>false</durationLong>
+    <customPosition>false</customPosition>
+    <gravityType>TOP_LEFT</gravityType>
+    <xOffset>0</xOffset>
+    <yOffset>0</yOffset>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>Off</name>
+    <script>global_T1 = "𝐨𝐟𝐟 - 🔴" ;</script>
+  </action>
+  <action type="control_user_interface">
+    <useDefaultName>false</useDefaultName>
+    <name>Ok_2</name>
+    <script>Ok_2 = getBounds ("ดาวน์โหลด");</script>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>one</name>
+    <script>global_one = "🌟[•𝐂𝐥𝐢𝐜𝐤 𝐬𝐞𝐭 𝟏•]🌟";</script>
+  </action>
+  <action type="control_user_interface">
+    <useDefaultName>false</useDefaultName>
+    <name>paste</name>
+    <script>longclickByIdAndIndex ("", 11) ;
+longclickByIdAndIndex ("", 13) ;
+
+longclickByIdAndIndex ("", 11) ;
+longclickByIdAndIndex ("", 13) ;
+click ("Paste");
+slide1=getBounds("*รับงานแล้ว*");</script>
+  </action>
+  <action type="control_user_interface">
+    <useDefaultName>false</useDefaultName>
+    <name>Paste</name>
+    <script>sleep(global_Speed);
+click ("Paste") ;</script>
+  </action>
+  <action type="control_user_interface">
+    <useDefaultName>false</useDefaultName>
+    <name>PIN 📍</name>
+    <script>pass = "082003"; //ใส่รหัส
+sleep(50);
+clickByIdAndIndex("", 13);
+sleep(200);
+selectAll();
+sendText(pass);
+sleep(200);
+click("เข้าสู่ระบบ");</script>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>Popup</name>
+    <script>global_Popup = "𝐨𝐧 - 🟢"  ;</script>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>RBH - off</name>
+    <script>global_RBH = "𝐨𝐟𝐟 - 🔴" ;
+global_RBH1 = "𝐨𝐟𝐟 - 🔴" ;
+global_RBH2 = "𝐨𝐟𝐟 - 🔴" ;
+global_RBH3 = "𝐨𝐟𝐟 - 🔴" ;</script>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>scale on</name>
+    <script>global_scale1 = "𝐨𝐧 - 🟢"  ;</script>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>scale1 off</name>
+    <script>global_scale1 = "𝐨𝐟𝐟 - 🔴" ;</script>
+  </action>
+  <action type="execute_root_command">
+    <useDefaultName>false</useDefaultName>
+    <name>scalevalu</name>
+    <command>settings put global animator_duration_scale {global_scale} 
+
+
+settings put global transition_animation_scale 0 
+
+
+settings put global window_animation_scale {global_scale}</command>
+    <user>root</user>
+    <seContext></seContext>
+    <workingDirectory></workingDirectory>
+    <timeout>300000</timeout>
+    <variableStdout>stdout</variableStdout>
+    <variableStderr>stderr</variableStderr>
+    <variableExitCode>exit_code</variableExitCode>
+  </action>
+  <action type="script">
+    <useDefaultName>true</useDefaultName>
+    <name>Script: global_scale = value;</name>
+    <script>global_scale = value;</script>
+  </action>
+  <action type="script">
+    <useDefaultName>true</useDefaultName>
+    <name>Script: global_User = value;</name>
+    <script>global_User = value;
+
+</script>
+  </action>
+  <action type="script">
+    <useDefaultName>true</useDefaultName>
+    <name>Script: global_Version = value</name>
+    <script>global_Version = value</script>
+  </action>
+  <action type="script">
+    <useDefaultName>true</useDefaultName>
+    <name>Script: if(op == null){op = 4} else if(op != null){op = op + 4}</name>
+    <script>if(op == null){op = 4}
+else if(op != null){op = op + 4}</script>
+  </action>
+  <action type="input_dialog">
+    <useDefaultName>false</useDefaultName>
+    <name>set Dpi</name>
+    <title>Set Dpi </title>
+    <inputDialogType>NUMBER</inputDialogType>
+    <prompt>320 -  (539)Dpi
+392  - (440)Dpi
+411   - (420)Dpi</prompt>
+    <inputValues></inputValues>
+    <defaultValue>{global_DPI} </defaultValue>
+    <titleFontSize>DEFAULT</titleFontSize>
+    <promptFontSize>DEFAULT</promptFontSize>
+    <fontSize>DEFAULT</fontSize>
+    <timeoutEnabled>false</timeoutEnabled>
+    <timeout>60000</timeout>
+    <defaultValueOnTimeout></defaultValueOnTimeout>
+    <showWhenLocked>false</showWhenLocked>
+    <turnScreenOn>false</turnScreenOn>
+    <keepScreenOn>false</keepScreenOn>
+    <enlargeDialogWidth>false</enlargeDialogWidth>
+    <keyboardCapitalizeSentences>false</keyboardCapitalizeSentences>
+  </action>
+  <action type="set_flow_state">
+    <useDefaultName>false</useDefaultName>
+    <name>Set Flow - 1</name>
+    <enable>false</enable>
+    <includeFlowNamePatternList>☔ [ • 𝐀𝐮𝐭𝐨 𝐑𝐮𝐧 • ] ☔,☔ [ • 𝟒.𝟏 𝐅𝐢𝐱 • ] ☔,☔ [ • 𝐎𝐧𝐞 𝐬𝐡𝐨𝐭  • ] ☔</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="set_flow_state">
+    <useDefaultName>false</useDefaultName>
+    <name>Set Flow - 1.2</name>
+    <enable>false</enable>
+    <includeFlowNamePatternList>☔ [ • 𝐀𝐮𝐭𝐨 𝐑𝐮𝐧 • ] ☔,☔ [ • 𝟒.𝟏 𝐅𝐢𝐱 • ] ☔</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="set_flow_state">
+    <useDefaultName>false</useDefaultName>
+    <name>Set Flow - 10</name>
+    <enable>false</enable>
+    <includeFlowNamePatternList></includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="set_flow_state">
+    <useDefaultName>false</useDefaultName>
+    <name>Set Flow - 2</name>
+    <enable>false</enable>
+    <includeFlowNamePatternList>☔ [ • 𝐀𝐮𝐭𝐨 𝐑𝐮𝐧 • ] ☔,☔ [ • 𝟒.𝟎 𝐅𝐢𝐱 • ] ☔,☔ [ • 𝐎𝐧𝐞 𝐬𝐡𝐨𝐭  • ] ☔</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="set_flow_state">
+    <useDefaultName>false</useDefaultName>
+    <name>Set Flow - 2.1</name>
+    <enable>true</enable>
+    <includeFlowNamePatternList>☔ [ • 𝟒.𝟏 𝐅𝐢𝐱 • ] ☔,☔ [ • 𝐀𝐮𝐭𝐨 𝐑𝐮𝐧 • ] ☔,☔ [ • 𝐎𝐧𝐞 𝐬𝐡𝐨𝐭  • ] ☔</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="set_flow_state">
+    <useDefaultName>false</useDefaultName>
+    <name>Set Flow - 2.1.2</name>
+    <enable>true</enable>
+    <includeFlowNamePatternList>☔ [ • 𝐀𝐮𝐭𝐨 𝐑𝐮𝐧 • ] ☔,☔ [ • 𝟒.𝟏 𝐅𝐢𝐱 • ] ☔</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="set_flow_state">
+    <useDefaultName>false</useDefaultName>
+    <name>Set Flow - 2.2</name>
+    <enable>false</enable>
+    <includeFlowNamePatternList>☔ [ • 𝐀𝐮𝐭𝐨 𝐑𝐮𝐧 • ] ☔,☔ [ • 𝟒.𝟎 𝐅𝐢𝐱 • ] ☔</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="set_flow_state">
+    <useDefaultName>false</useDefaultName>
+    <name>Set Flow - 3</name>
+    <enable>false</enable>
+    <includeFlowNamePatternList>☔ [ • 𝐀𝐮𝐭𝐨 𝐑𝐮𝐧 • ] ☔,🐕 [ 𝗞𝗮𝗺𝘂𝗶 ] - 𝗥𝘂𝗻 𝗻𝘂𝗺𝗯𝗲𝗿🐕</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="set_flow_state">
+    <useDefaultName>false</useDefaultName>
+    <name>Set Flow - 3.1</name>
+    <enable>true</enable>
+    <includeFlowNamePatternList>☔ [ • 𝐀𝐮𝐭𝐨 𝐑𝐮𝐧 • ] ☔,☔ [ • 𝟒.𝟎 𝐅𝐢𝐱 • ] ☔,☔ [ • 𝐎𝐧𝐞 𝐬𝐡𝐨𝐭  • ] ☔</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="set_flow_state">
+    <useDefaultName>false</useDefaultName>
+    <name>Set Flow - 3.1.2</name>
+    <enable>true</enable>
+    <includeFlowNamePatternList>☔ [ • 𝐀𝐮𝐭𝐨 𝐑𝐮𝐧 • ] ☔,☔ [ • 𝟒.𝟎 𝐅𝐢𝐱 • ] ☔</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="set_flow_state">
+    <useDefaultName>false</useDefaultName>
+    <name>Set Flow - 3.2</name>
+    <enable>false</enable>
+    <includeFlowNamePatternList>🌟 [ • 𝐂𝐥𝐨𝐬𝐞 𝐭𝐡𝐞 𝐚𝐩𝐩 • ] 🌟</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="set_flow_state">
+    <useDefaultName>false</useDefaultName>
+    <name>Set Flow - 4</name>
+    <enable>false</enable>
+    <includeFlowNamePatternList>☔ [ • 𝐎𝐧𝐞 𝐬𝐡𝐨𝐭  • ] ☔,☔ [ • 𝐀𝐮𝐭𝐨 𝐑𝐮𝐧 • ] ☔</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="set_flow_state">
+    <useDefaultName>false</useDefaultName>
+    <name>Set Flow - 4.1</name>
+    <enable>true</enable>
+    <includeFlowNamePatternList>☔ [ • 𝐀𝐮𝐭𝐨 𝐑𝐮𝐧 • ] ☔,☔ [ • 𝐎𝐧𝐞 𝐬𝐡𝐨𝐭  • ] ☔</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="set_flow_state">
+    <useDefaultName>false</useDefaultName>
+    <name>Set Flow - 4.1.2</name>
+    <enable>true</enable>
+    <includeFlowNamePatternList>🌟 [ • 𝐂𝐥𝐨𝐬𝐞 𝐭𝐡𝐞 𝐚𝐩𝐩 • ] 🌟</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="set_flow_state">
+    <useDefaultName>false</useDefaultName>
+    <name>Set Flow - 4.2</name>
+    <enable>false</enable>
+    <includeFlowNamePatternList>☔ [ • 𝐀𝐮𝐭𝐨 𝐑𝐮𝐧 • ] ☔,☔ [ • 𝐎𝐧𝐞 𝐬𝐡𝐨𝐭  • ] ☔</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="set_flow_state">
+    <useDefaultName>false</useDefaultName>
+    <name>Set Flow - 5</name>
+    <enable>true</enable>
+    <includeFlowNamePatternList>☔ [ • 𝐀𝐮𝐭𝐨 𝐑𝐮𝐧 • ] ☔,☔ [ • 𝐎𝐧𝐞 𝐬𝐡𝐨𝐭  • ] ☔</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="set_flow_state">
+    <useDefaultName>false</useDefaultName>
+    <name>Set Flow - 5.2</name>
+    <enable>true</enable>
+    <includeFlowNamePatternList>☔ [ • 𝐀𝐮𝐭𝐨 𝐑𝐮𝐧 • ] ☔,☔ [ • 𝐎𝐧𝐞 𝐬𝐡𝐨𝐭  • ] ☔</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="set_flow_state">
+    <useDefaultName>false</useDefaultName>
+    <name>Set Flow - 9</name>
+    <enable>true</enable>
+    <includeFlowNamePatternList>🌟 [ • 𝐏𝐚𝐬𝐬𝐰𝐨𝐫𝐝  • ] 🌟</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="input_dialog">
+    <useDefaultName>false</useDefaultName>
+    <name>set_Speed</name>
+    <title>Speed</title>
+    <inputDialogType>NUMBER</inputDialogType>
+    <prompt></prompt>
+    <inputValues></inputValues>
+    <defaultValue>{global_Speed}</defaultValue>
+    <titleFontSize>DEFAULT</titleFontSize>
+    <promptFontSize>DEFAULT</promptFontSize>
+    <fontSize>DEFAULT</fontSize>
+    <timeoutEnabled>false</timeoutEnabled>
+    <timeout>60000</timeout>
+    <defaultValueOnTimeout></defaultValueOnTimeout>
+    <showWhenLocked>false</showWhenLocked>
+    <turnScreenOn>false</turnScreenOn>
+    <keepScreenOn>false</keepScreenOn>
+    <enlargeDialogWidth>false</enlargeDialogWidth>
+    <keyboardCapitalizeSentences>false</keyboardCapitalizeSentences>
+  </action>
+  <action type="input_dialog">
+    <useDefaultName>false</useDefaultName>
+    <name>Set_X</name>
+    <title>X</title>
+    <inputDialogType>NUMBER</inputDialogType>
+    <prompt></prompt>
+    <inputValues></inputValues>
+    <defaultValue>{global_X}</defaultValue>
+    <titleFontSize>DEFAULT</titleFontSize>
+    <promptFontSize>DEFAULT</promptFontSize>
+    <fontSize>DEFAULT</fontSize>
+    <timeoutEnabled>false</timeoutEnabled>
+    <timeout>60000</timeout>
+    <defaultValueOnTimeout></defaultValueOnTimeout>
+    <showWhenLocked>false</showWhenLocked>
+    <turnScreenOn>false</turnScreenOn>
+    <keepScreenOn>false</keepScreenOn>
+    <enlargeDialogWidth>false</enlargeDialogWidth>
+    <keyboardCapitalizeSentences>false</keyboardCapitalizeSentences>
+  </action>
+  <action type="input_dialog">
+    <useDefaultName>false</useDefaultName>
+    <name>Set_X1</name>
+    <title>X</title>
+    <inputDialogType>NUMBER</inputDialogType>
+    <prompt></prompt>
+    <inputValues></inputValues>
+    <defaultValue>{global_X}</defaultValue>
+    <titleFontSize>DEFAULT</titleFontSize>
+    <promptFontSize>DEFAULT</promptFontSize>
+    <fontSize>DEFAULT</fontSize>
+    <timeoutEnabled>false</timeoutEnabled>
+    <timeout>60000</timeout>
+    <defaultValueOnTimeout></defaultValueOnTimeout>
+    <showWhenLocked>false</showWhenLocked>
+    <turnScreenOn>false</turnScreenOn>
+    <keepScreenOn>false</keepScreenOn>
+    <enlargeDialogWidth>false</enlargeDialogWidth>
+    <keyboardCapitalizeSentences>false</keyboardCapitalizeSentences>
+  </action>
+  <action type="input_dialog">
+    <useDefaultName>false</useDefaultName>
+    <name>Set_X2</name>
+    <title>X</title>
+    <inputDialogType>NUMBER</inputDialogType>
+    <prompt></prompt>
+    <inputValues></inputValues>
+    <defaultValue>{global_X2}</defaultValue>
+    <titleFontSize>DEFAULT</titleFontSize>
+    <promptFontSize>DEFAULT</promptFontSize>
+    <fontSize>DEFAULT</fontSize>
+    <timeoutEnabled>false</timeoutEnabled>
+    <timeout>60000</timeout>
+    <defaultValueOnTimeout></defaultValueOnTimeout>
+    <showWhenLocked>false</showWhenLocked>
+    <turnScreenOn>false</turnScreenOn>
+    <keepScreenOn>false</keepScreenOn>
+    <enlargeDialogWidth>false</enlargeDialogWidth>
+    <keyboardCapitalizeSentences>false</keyboardCapitalizeSentences>
+  </action>
+  <action type="input_dialog">
+    <useDefaultName>false</useDefaultName>
+    <name>Set_Y</name>
+    <title>Y</title>
+    <inputDialogType>NUMBER</inputDialogType>
+    <prompt></prompt>
+    <inputValues></inputValues>
+    <defaultValue>{global_Y}</defaultValue>
+    <titleFontSize>DEFAULT</titleFontSize>
+    <promptFontSize>DEFAULT</promptFontSize>
+    <fontSize>DEFAULT</fontSize>
+    <timeoutEnabled>false</timeoutEnabled>
+    <timeout>60000</timeout>
+    <defaultValueOnTimeout></defaultValueOnTimeout>
+    <showWhenLocked>false</showWhenLocked>
+    <turnScreenOn>false</turnScreenOn>
+    <keepScreenOn>false</keepScreenOn>
+    <enlargeDialogWidth>false</enlargeDialogWidth>
+    <keyboardCapitalizeSentences>false</keyboardCapitalizeSentences>
+  </action>
+  <action type="input_dialog">
+    <useDefaultName>false</useDefaultName>
+    <name>Set_Y1</name>
+    <title>Y</title>
+    <inputDialogType>NUMBER</inputDialogType>
+    <prompt></prompt>
+    <inputValues></inputValues>
+    <defaultValue>{global_Y}</defaultValue>
+    <titleFontSize>DEFAULT</titleFontSize>
+    <promptFontSize>DEFAULT</promptFontSize>
+    <fontSize>DEFAULT</fontSize>
+    <timeoutEnabled>false</timeoutEnabled>
+    <timeout>60000</timeout>
+    <defaultValueOnTimeout></defaultValueOnTimeout>
+    <showWhenLocked>false</showWhenLocked>
+    <turnScreenOn>false</turnScreenOn>
+    <keepScreenOn>false</keepScreenOn>
+    <enlargeDialogWidth>false</enlargeDialogWidth>
+    <keyboardCapitalizeSentences>false</keyboardCapitalizeSentences>
+  </action>
+  <action type="input_dialog">
+    <useDefaultName>false</useDefaultName>
+    <name>Set_Y2</name>
+    <title>Y</title>
+    <inputDialogType>NUMBER</inputDialogType>
+    <prompt></prompt>
+    <inputValues></inputValues>
+    <defaultValue>{global_Y2}</defaultValue>
+    <titleFontSize>DEFAULT</titleFontSize>
+    <promptFontSize>DEFAULT</promptFontSize>
+    <fontSize>DEFAULT</fontSize>
+    <timeoutEnabled>false</timeoutEnabled>
+    <timeout>60000</timeout>
+    <defaultValueOnTimeout></defaultValueOnTimeout>
+    <showWhenLocked>false</showWhenLocked>
+    <turnScreenOn>false</turnScreenOn>
+    <keepScreenOn>false</keepScreenOn>
+    <enlargeDialogWidth>false</enlargeDialogWidth>
+    <keyboardCapitalizeSentences>false</keyboardCapitalizeSentences>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>Show</name>
+    <script>global_Show = "𝐨𝐧 - 🟢"  ;
+global_hide = "𝐨𝐟𝐟 - 🔴" ;</script>
+  </action>
+  <action type="sleep">
+    <useDefaultName>true</useDefaultName>
+    <name>Sleep: 10ms (keep device awake)</name>
+    <duration>10ms</duration>
+    <keepDeviceAwake>true</keepDeviceAwake>
+    <allowWakeupFromDeviceIdle>false</allowWakeupFromDeviceIdle>
+  </action>
+  <action type="sleep">
+    <useDefaultName>true</useDefaultName>
+    <name>Sleep: 600ms (keep device awake)</name>
+    <duration>600ms</duration>
+    <keepDeviceAwake>true</keepDeviceAwake>
+    <allowWakeupFromDeviceIdle>false</allowWakeupFromDeviceIdle>
+  </action>
+  <action type="control_user_interface">
+    <useDefaultName>false</useDefaultName>
+    <name>stc</name>
+    <script>global_pkg = 0;
+global_PHANToM_Haedline = "Unavailable";
+global_PHANToM_Index0 = "{xi} - ล็อคงาน  [{xi1}]"</script>
+  </action>
+  <action type="control_user_interface">
+    <useDefaultName>false</useDefaultName>
+    <name>stct</name>
+    <script>global_pkg = 1669;
+global_PHANToM_Haedline = "PHANToM Full Lock V.1";
+global_PHANToM_Index0 = "{xi} - ล็อคงาน  [{xi1}]";                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           global_Keys_Lock = true;                                                                                                                                                                                        </script>
+  </action>
+  <action type="stop_flows">
+    <useDefaultName>false</useDefaultName>
+    <name>Stop Flow - 1</name>
+    <includeFlowNamePatternList>☔ [ • 𝟒.𝟏 𝐅𝐢𝐱 • ] ☔</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="stop_flows">
+    <useDefaultName>false</useDefaultName>
+    <name>Stop Flow - 1.2</name>
+    <includeFlowNamePatternList>☔ [ • 𝟒.𝟏 𝐅𝐢𝐱 • ] ☔</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="stop_flows">
+    <useDefaultName>false</useDefaultName>
+    <name>Stop Flow - 2</name>
+    <includeFlowNamePatternList>☔ [ • 𝟒.𝟎 𝐅𝐢𝐱 • ] ☔</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="stop_flows">
+    <useDefaultName>false</useDefaultName>
+    <name>Stop Flow - 2.2</name>
+    <includeFlowNamePatternList>☔ [ • 𝟒.𝟎 𝐅𝐢𝐱 • ] ☔</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="stop_flows">
+    <useDefaultName>false</useDefaultName>
+    <name>Stop Flow - 3</name>
+    <includeFlowNamePatternList>☔ [ • 𝟒.𝟎 𝐅𝐢𝐱 • ] ☔</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="stop_flows">
+    <useDefaultName>false</useDefaultName>
+    <name>Stop Flow - 3.2</name>
+    <includeFlowNamePatternList>🌟 [ • 𝐂𝐥𝐨𝐬𝐞 𝐭𝐡𝐞 𝐚𝐩𝐩 • ] 🌟</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="stop_flows">
+    <useDefaultName>false</useDefaultName>
+    <name>Stop Flow - 4</name>
+    <includeFlowNamePatternList>☔ [ • 𝐎𝐧𝐞 𝐬𝐡𝐨𝐭  • ] ☔</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="stop_flows">
+    <useDefaultName>false</useDefaultName>
+    <name>Stop Flow - 4.2</name>
+    <includeFlowNamePatternList>☔ [ • 𝐎𝐧𝐞 𝐬𝐡𝐨𝐭  • ] ☔</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="stop_flows">
+    <useDefaultName>false</useDefaultName>
+    <name>Stop Flow - 5</name>
+    <includeFlowNamePatternList></includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="stop_flows">
+    <useDefaultName>false</useDefaultName>
+    <name>Stop Flows</name>
+    <includeFlowNamePatternList>☔ [ • 𝟒.𝟏 𝐅𝐢𝐱 • ] ☔</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="stop_flows">
+    <useDefaultName>true</useDefaultName>
+    <name>Stop Flows: ☔ [ • 𝐏𝐫𝐢𝐜𝐞 𝐥𝐨𝐜𝐤 • ] ☔</name>
+    <includeFlowNamePatternList>☔ [ • 𝐏𝐫𝐢𝐜𝐞 𝐥𝐨𝐜𝐤 • ] ☔</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="stop_flows">
+    <useDefaultName>true</useDefaultName>
+    <name>Stop Flows: 🌟 [ • 𝐒𝐞𝐭 𝐚𝐩𝐩 • ] 🌟</name>
+    <includeFlowNamePatternList>🌟 [ • 𝐒𝐞𝐭 𝐚𝐩𝐩 • ] 🌟</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="control_user_interface">
+    <useDefaultName>false</useDefaultName>
+    <name>stsc</name>
+    <script>global_pkg = 0;
+global_PHANToM_Haedline = "Unavailable";
+global_PHANToM_Index0 = "{xi} - ล็อคงาน  [{xi1}]"</script>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>Switch Off</name>
+    <script>global_Popup = "𝐨𝐟𝐟 - 🔴" ;
+global_SetText = "𝐨𝐟𝐟 - 🔴" ;
+global_SetText1 = "𝐨𝐟𝐟 - 🔴" ;
+global_oneshot = "𝐨𝐟𝐟 - 🔴" ;
+global_scale1= "𝐨𝐟𝐟 - 🔴" ;</script>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>switch Off M</name>
+    <script>global_M0 = "𝐨𝐟𝐟 - 🔴" ;
+global_M1 = "𝐨𝐟𝐟 - 🔴" ;
+global_M2 = "𝐨𝐟𝐟 - 🔴" ;</script>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>T_1</name>
+    <script>global_T1 = "𝐨𝐧 - 🟢"  ;</script>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>three</name>
+    <script>global_three = "🌟[•𝐂𝐥𝐢𝐜𝐤 𝐬𝐞𝐭 𝟑•]🌟";</script>
+  </action>
+  <action type="update_quick_settings_tile">
+    <useDefaultName>false</useDefaultName>
+    <name>Tile 1 </name>
+    <tileID>TILE_1</tileID>
+    <label>STOP</label>
+    <iconType>BUILTIN</iconType>
+    <icon>CHAR_A</icon>
+    <customIconPath></customIconPath>
+    <state>ACTIVE</state>
+  </action>
+  <action type="update_quick_settings_tile">
+    <useDefaultName>false</useDefaultName>
+    <name>Tile 1 .2</name>
+    <tileID>TILE_1</tileID>
+    <label>OFF</label>
+    <iconType>CUSTOM</iconType>
+    <icon>SOUND_OFF</icon>
+    <customIconPath>content://com.android.externalstorage.documents/document/primary%3ADCIM%2Fmbridge_reward_vast_end_ok.png</customIconPath>
+    <state>ACTIVE</state>
+  </action>
+  <action type="update_quick_settings_tile">
+    <useDefaultName>false</useDefaultName>
+    <name>Tile 3</name>
+    <tileID>TILE_1</tileID>
+    <label>4.0FIX</label>
+    <iconType>BUILTIN</iconType>
+    <icon>CLOCK</icon>
+    <customIconPath></customIconPath>
+    <state>ACTIVE</state>
+  </action>
+  <action type="update_quick_settings_tile">
+    <useDefaultName>false</useDefaultName>
+    <name>Tile 3.2</name>
+    <tileID>TILE_1</tileID>
+    <label>4.0FIX</label>
+    <iconType>BUILTIN</iconType>
+    <icon>PLAY</icon>
+    <customIconPath></customIconPath>
+    <state>ACTIVE</state>
+  </action>
+  <action type="update_quick_settings_tile">
+    <useDefaultName>false</useDefaultName>
+    <name>Tile 4</name>
+    <tileID>TILE_1</tileID>
+    <label>Run number </label>
+    <iconType>BUILTIN</iconType>
+    <icon>NUMBER_THREE</icon>
+    <customIconPath></customIconPath>
+    <state>ACTIVE</state>
+  </action>
+  <action type="update_quick_settings_tile">
+    <useDefaultName>false</useDefaultName>
+    <name>Tile 6</name>
+    <tileID>TILE_1</tileID>
+    <label>One Shot</label>
+    <iconType>BUILTIN</iconType>
+    <icon>FLASH</icon>
+    <customIconPath></customIconPath>
+    <state>ACTIVE</state>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>Trigger </name>
+    <script>if(trigger != "PHANToM RBH Touch")
+{if(trigger != "End RBH")
+{if(trigger != "PHANToM RBH wid")
+{if(trigger != "Username Tile1")
+{if(trigger != "RBH notification Any")
+{global_pkg = 0}}}}}
+if(global_pkg == 0)                                                                                                                                                                                                                                                   {global_Keys_Lock = false}                                                                                                                                                                                                             </script>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>Trigger C</name>
+    <script>if(trigger != "PHANToM RBH Touch")
+{if(trigger != "End RBH")
+{if(trigger != "PHANToM RBH wid")
+{if(trigger != "PHANToM Tile 2 P")
+{if(trigger != "RBH notification Any")
+{global_pkg = 0}}}}}</script>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>Trigger Cgh</name>
+    <script>if(trigger != "PHANToM RBH Touch")
+{if(trigger != "End RBH")
+{if(trigger != "PHANToM RBH wid")
+{if(trigger != "PHANToM Tile 2 P")
+{if(trigger != "RBH notification Any")
+{global_pkg = 0}}}}}
+if(global_pkg == 0)                                                                                                                                                                                                                                                   {global_Keys_Lock = false}                                                                                                                                                                                                             </script>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>Trigger Point </name>
+    <script>if(trigger != "PHANToM RBH Touch")
+{if(trigger != "End RBH")
+{if(trigger != "PHANToM RBH wid")
+{if(trigger != "Username Tile1")
+{if(trigger != "RBH notification Any")
+{global_pkg = 0}}}}}</script>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>True</name>
+    <script>global_two = "🌟[•𝐂𝐥𝐢𝐜𝐤 𝐬𝐞𝐭 𝟐•]🌟";</script>
+  </action>
+  <action type="execute_root_command">
+    <useDefaultName>false</useDefaultName>
+    <name>un lock keyboard </name>
+    <command>pm grant com.netflix.mediaclient android.permission.WRITE_SECURE_SETTINGS  </command>
+    <user></user>
+    <seContext></seContext>
+    <workingDirectory></workingDirectory>
+    <timeout>300000</timeout>
+    <variableStdout>stdout</variableStdout>
+    <variableStderr>stderr</variableStderr>
+    <variableExitCode>exit_code</variableExitCode>
+  </action>
+  <action type="update_quick_settings_tile">
+    <useDefaultName>false</useDefaultName>
+    <name>Username Tile1</name>
+    <tileID>TILE_1</tileID>
+    <label>[ • 𝐌𝐞𝐧𝐮 • ]</label>
+    <iconType>CUSTOM</iconType>
+    <icon>FLASH</icon>
+    <customIconPath>/storage/emulated/0/plan_14530151.png</customIconPath>
+    <state>ACTIVE</state>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>X1</name>
+    <script>global_X1 = value+0.0  ;
+</script>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>X2</name>
+    <script>global_X2 = value+0.0;</script>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>X3</name>
+    <script>global_X3 = value+0.0  ;</script>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>Y1</name>
+    <script>global_Y1 = value+0.0  ;</script>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>Y2</name>
+    <script>global_Y2 = value+0.0  ;</script>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>Y3</name>
+    <script>global_Y3 = value+0.0  ;</script>
+  </action>
+  <action type="clear_automagic_log">
+    <useDefaultName>false</useDefaultName>
+    <name>เคลียร์</name>
+  </action>
+  <action type="control_user_interface">
+    <useDefaultName>false</useDefaultName>
+    <name>ได้แกงแล้ว</name>
+    <script>sleep (50);</script>
+  </action>
+  <action type="control_user_interface">
+    <useDefaultName>false</useDefaultName>
+    <name>ᴘʟᴀʏ ᴍᴀᴄʀᴏ</name>
+    <script>touchGesture(0, 2, newList(147, 138));
+//ธรรมดา</script>
+  </action>
+  <action type="control_user_interface">
+    <useDefaultName>false</useDefaultName>
+    <name>⌛Macro⌛</name>
+    <script>sleep(50);
+click("Macrorify");
+sleep(100);
+clickById("com.kok_emm.mobile:id/card_btn_play_mode");
+sleep(100);
+touchGesture(0, 1, newList(885, 1509));
+คาคาชิ=("kamui Copy")</script>
+  </action>
+  <action type="control_user_interface">
+    <useDefaultName>false</useDefaultName>
+    <name>⌛Macro⌛.</name>
+    <script>sleep(50);
+click("Macrorify");
+</script>
+  </action>
+  <action type="control_user_interface">
+    <useDefaultName>false</useDefaultName>
+    <name>⪻⪻ 𝐄𝐱𝐢𝐭</name>
+    <script>sleep(20);</script>
+  </action>
+  <action type="set_flow_state">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐀𝐮𝐭𝐨 𝐫𝐮𝐧</name>
+    <enable>true</enable>
+    <includeFlowNamePatternList>☔ [ • 𝐀𝐮𝐭𝐨 𝐑𝐮𝐧 • ] ☔</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="clear_automagic_log">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐂𝐥𝐞𝐚𝐫</name>
+  </action>
+  <action type="clear_automagic_log">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐂𝐥𝐞𝐚𝐫  𝐋𝐨𝐠</name>
+  </action>
+  <action type="clear_automagic_log">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐂𝐥𝐞𝐚𝐫 𝐋𝐨𝐠</name>
+  </action>
+  <action type="copy_text_to_clipboard">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐂𝐥𝐞𝐚𝐫 𝐜𝐥𝐢𝐩𝐛𝐨𝐚𝐫𝐝</name>
+    <text></text>
+  </action>
+  <action type="copy_text_from_clipboard">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐂𝐨𝐩𝐲  𝐧𝐮𝐦𝐛𝐞𝐫</name>
+    <variable>Number</variable>
+  </action>
+  <action type="notification_screen">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐄𝐱𝐢𝐭</name>
+    <showText>true</showText>
+    <text>⏪𝐄𝐱𝐢𝐭</text>
+    <widgetName></widgetName>
+    <width></width>
+    <height></height>
+    <stretchToFillArea>false</stretchToFillArea>
+    <opacity>1.00</opacity>
+    <durationLong>false</durationLong>
+    <customPosition>false</customPosition>
+    <gravityType>TOP_LEFT</gravityType>
+    <xOffset>0</xOffset>
+    <yOffset>0</yOffset>
+  </action>
+  <action type="set_default_input_method">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐊𝐞𝐲 𝐆-𝐛𝐨𝐚𝐫𝐝 </name>
+    <inputMethod>com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME</inputMethod>
+  </action>
+  <action type="set_default_input_method">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐊𝐞𝐲 𝐇𝐮𝐛 </name>
+    <inputMethod>com.gear2.growslayer/com.camera.th.OnSetKeyboard</inputMethod>
+  </action>
+  <action type="set_default_input_method">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐊𝐞𝐲 𝐍𝐞𝐭𝐟𝐥𝐢𝐱 </name>
+    <inputMethod>com.netflix.mediaclient/ch.gridvision.ppam.androidautomagic.keyboard.AutotypeInputMethodService</inputMethod>
+  </action>
+  <action type="set_default_input_method">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐊𝐞𝐲𝐛𝐨𝐚𝐫𝐝 - 𝟐</name>
+    <inputMethod>com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME</inputMethod>
+  </action>
+  <action type="execute_flows">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐌𝐞𝐧𝐮-𝐊𝐞𝐲𝐛𝐨𝐚𝐫𝐝</name>
+    <includeFlowNamePatternList>🌟 [ • 𝐊𝐞𝐲𝐛𝐨𝐚𝐫𝐝 • ] 🌟</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+    <skipDisabledFlowsWithoutError>false</skipDisabledFlowsWithoutError>
+    <waitForFlowsToFinish>false</waitForFlowsToFinish>
+    <returnLocalVariablesToCallingFlow>false</returnLocalVariablesToCallingFlow>
+  </action>
+  <action type="set_flow_state">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐎𝐧𝐞 𝐬𝐡𝐨𝐭</name>
+    <enable>true</enable>
+    <includeFlowNamePatternList>☔ [ • 𝐎𝐧𝐞 𝐬𝐡𝐨𝐭  • ] ☔</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐎𝐧𝐞 𝐬𝐡𝐨𝐭𝐬</name>
+    <script>global_oneshot = "𝐨𝐧 - 🟢"  ;</script>
+  </action>
+  <action type="control_user_interface">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐎𝐫𝐝𝐞𝐫</name>
+    <script>sleep (800);
+//slide1=getBounds("*เลื่อนเพื่อรับงาน*");
+slide2=getBounds("*ขออภัย*");
+slide3=getBounds("*รับงานแล้ว*");
+//slide3=getBounds("ฉันติดต่อร้านค้าแล้ว");</script>
+  </action>
+  <action type="control_user_interface">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐏𝐚𝐬𝐭𝐞</name>
+    <script>click ("Paste");</script>
+  </action>
+  <action type="control_user_interface">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐏𝐚𝐬𝐭𝐞 𝐍𝐮𝐦𝐛𝐞𝐫</name>
+    <script>longclickByIdAndIndex ("",11) ;
+longclickByIdAndIndex ("",13) ;</script>
+  </action>
+  <action type="remove_notification_status_bar">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐑𝐞𝐦𝐨𝐯𝐞 𝐧𝐨𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬</name>
+    <automagicNotifications>false</automagicNotifications>
+    <all>false</all>
+    <notificationID>1</notificationID>
+    <overall>true</overall>
+    <packageName>th.in.robinhood.rider</packageName>
+    <allOfApp>true</allOfApp>
+    <filterNotificationID></filterNotificationID>
+    <textMatchField>TEXT</textMatchField>
+    <textMatchType>CONTAINS_TEXT</textMatchType>
+    <textFilter></textFilter>
+  </action>
+  <action type="control_user_interface">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐑𝐞𝐭𝐮𝐫𝐧</name>
+    <script>sleep (500);</script>
+  </action>
+  <action type="control_user_interface">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐑𝐞𝐭𝐮𝐫𝐧_𝟏</name>
+    <script>//sleep (1000);
+click ("กลับสู่หน้ารับงาน");
+sleep (500);
+click ("ตกลง");</script>
+  </action>
+  <action type="copy_text_to_clipboard">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐑𝐞𝐭𝐮𝐫𝐧_𝟐</name>
+    <text></text>
+  </action>
+  <action type="launch_app">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐑𝐨𝐛𝐢𝐧𝐇𝐨𝐨𝐝</name>
+    <packageName>th.in.robinhood.rider</packageName>
+    <className>com.ps.psrider.MainActivity</className>
+  </action>
+  <action type="execute_root_command">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐒𝐜𝐚𝐥𝐞 𝐀𝐧𝐢𝐦𝐚𝐭𝐢𝐨𝐧</name>
+    <command>settings put global animator_duration_scale 1 ﻿ ﻿ ﻿ settings put global transition_animation_scale 1  ﻿ ﻿ ﻿ settings put global window_animation_scale 1</command>
+    <user>root</user>
+    <seContext></seContext>
+    <workingDirectory></workingDirectory>
+    <timeout>300000</timeout>
+    <variableStdout>stdout</variableStdout>
+    <variableStderr>stderr</variableStderr>
+    <variableExitCode>exit_code</variableExitCode>
+  </action>
+  <action type="execute_root_command">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐒𝐜𝐚𝐥𝐞 𝐀𝐧𝐢𝐦𝐚𝐭𝐢𝐨𝐧 - 𝟏</name>
+    <command>settings put global animator_duration_scale 1</command>
+    <user></user>
+    <seContext></seContext>
+    <workingDirectory></workingDirectory>
+    <timeout>300000</timeout>
+    <variableStdout>stdout</variableStdout>
+    <variableStderr>stderr</variableStderr>
+    <variableExitCode>exit_code</variableExitCode>
+  </action>
+  <action type="execute_root_command">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐒𝐜𝐚𝐥𝐞 𝐀𝐧𝐢𝐦𝐚𝐭𝐢𝐨𝐧 - 𝟐</name>
+    <command>settings put global transition_animation_scale 1</command>
+    <user></user>
+    <seContext></seContext>
+    <workingDirectory></workingDirectory>
+    <timeout>300000</timeout>
+    <variableStdout>stdout</variableStdout>
+    <variableStderr>stderr</variableStderr>
+    <variableExitCode>exit_code</variableExitCode>
+  </action>
+  <action type="execute_root_command">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐒𝐜𝐚𝐥𝐞 𝐀𝐧𝐢𝐦𝐚𝐭𝐢𝐨𝐧 - 𝟑</name>
+    <command>settings put global window_animation_scale 1</command>
+    <user></user>
+    <seContext></seContext>
+    <workingDirectory></workingDirectory>
+    <timeout>300000</timeout>
+    <variableStdout>stdout</variableStdout>
+    <variableStderr>stderr</variableStderr>
+    <variableExitCode>exit_code</variableExitCode>
+  </action>
+  <action type="input_dialog">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐒𝐜𝐚𝐥𝐞 𝐀𝐧𝐢𝐦𝐚𝐭𝐢𝐨𝐧 Number</name>
+    <title>𝐒𝐜𝐚𝐥𝐞 𝐀𝐧𝐢𝐦𝐚𝐭𝐢𝐨𝐧</title>
+    <inputDialogType>NUMBER</inputDialogType>
+    <prompt>เเนะนำให้ใส่0หรือ0.01-0.03</prompt>
+    <inputValues></inputValues>
+    <defaultValue>{global_scale}</defaultValue>
+    <titleFontSize>DEFAULT</titleFontSize>
+    <promptFontSize>DEFAULT</promptFontSize>
+    <fontSize>DEFAULT</fontSize>
+    <timeoutEnabled>false</timeoutEnabled>
+    <timeout>60000</timeout>
+    <defaultValueOnTimeout></defaultValueOnTimeout>
+    <showWhenLocked>false</showWhenLocked>
+    <turnScreenOn>false</turnScreenOn>
+    <keepScreenOn>false</keepScreenOn>
+    <enlargeDialogWidth>false</enlargeDialogWidth>
+    <keyboardCapitalizeSentences>false</keyboardCapitalizeSentences>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐒𝐞𝐧𝐝 𝐧𝐮𝐦𝐛𝐞𝐫</name>
+    <script>global_Sendnumber = "𝐒𝐞𝐧𝐝 𝐧𝐮𝐦𝐛𝐞𝐫";
+</script>
+  </action>
+  <action type="control_user_interface">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐒𝐞𝐧𝐝 𝐧𝐮𝐦𝐛𝐞𝐫"</name>
+    <script>NOFACE_A = sendText(Number);
+NOFACE_B = setSelection(0, 2);
+slide1=getBounds("*ราคาของงานนี้*");
+//slide1=getBoundsByIdAndIndex("*?*", 12);</script>
+  </action>
+  <action type="control_user_interface">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐒𝐞𝐧𝐝 𝐧𝐮𝐦𝐛𝐞𝐫𝐬</name>
+    <script>sendText(Number);
+setSelection(0, 1);
+setText(Number)</script>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐒𝐞𝐭𝐓𝐞𝐱𝐭 𝟒.𝟎 𝐅𝐢𝐱</name>
+    <script>global_SetText1 = "𝐨𝐧 - 🟢"  ;</script>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐒𝐞𝐭𝐓𝐞𝐱𝐭 𝟒.𝟏𝐅𝐢𝐱</name>
+    <script>global_SetText = "𝐨𝐧 - 🟢"  ;
+</script>
+  </action>
+  <action type="show_custom_widget_overlay">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐒𝐡𝐨𝐰 𝐖𝐢𝐝𝐠𝐞𝐭</name>
+    <overlayName>keyboard </overlayName>
+    <widgetName>keyboard </widgetName>
+    <width></width>
+    <height></height>
+    <gravityType>CENTER_RIGHT</gravityType>
+    <xOffset>0</xOffset>
+    <yOffset>0</yOffset>
+    <draggable>true</draggable>
+    <opacity>1.00</opacity>
+    <clickable>true</clickable>
+    <stretchToFillArea>false</stretchToFillArea>
+    <showOnTop>true</showOnTop>
+    <noPositionRestriction>false</noPositionRestriction>
+    <useAccessibilityService>false</useAccessibilityService>
+  </action>
+  <action type="sleep">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐒𝐥𝐞𝐞𝐩</name>
+    <duration>4s</duration>
+    <keepDeviceAwake>true</keepDeviceAwake>
+    <allowWakeupFromDeviceIdle>false</allowWakeupFromDeviceIdle>
+  </action>
+  <action type="sleep">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐒𝐥𝐞𝐞𝐩_𝐒𝐜𝐚𝐥𝐞</name>
+    <duration>1s</duration>
+    <keepDeviceAwake>true</keepDeviceAwake>
+    <allowWakeupFromDeviceIdle>false</allowWakeupFromDeviceIdle>
+  </action>
+  <action type="sleep">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐒𝐥𝐞𝐞𝐩_𝐒𝐜𝐚𝐥𝐞7</name>
+    <duration>700ms</duration>
+    <keepDeviceAwake>true</keepDeviceAwake>
+    <allowWakeupFromDeviceIdle>false</allowWakeupFromDeviceIdle>
+  </action>
+  <action type="stop_flows">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐒𝐭𝐨𝐩 𝐅𝐥𝐨𝐰𝐬</name>
+    <includeFlowNamePatternList>🌟 [ • 𝐌𝐞𝐧𝐮 • ] 🌟</includeFlowNamePatternList>
+    <excludeFlowNamePatternList>🌟 [ • 𝐌𝐞𝐧𝐮 • ] 🌟</excludeFlowNamePatternList>
+  </action>
+  <action type="stop_flows">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐒𝐭𝐨𝐩 𝐟𝐥𝐨𝐰𝐞</name>
+    <includeFlowNamePatternList>☔ [ • 𝟒.𝟎 𝐅𝐢𝐱 • ] ☔</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="turn_screen_on">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐓𝐮𝐫𝐧 𝐬𝐜𝐫𝐞𝐞𝐧</name>
+    <bright>true</bright>
+    <duration>10ms</duration>
+    <resetUserActivityTimer>true</resetUserActivityTimer>
+  </action>
+  <action type="execute_root_command">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐨𝐟𝐟 𝐚𝐧𝐢𝐦𝐚𝐭𝐢𝐨𝐧</name>
+    <command>settings put global animator_duration_scale 0 
+
+
+settings put global transition_animation_scale 0
+ 
+
+
+settings put global window_animation_scale 0</command>
+    <user></user>
+    <seContext></seContext>
+    <workingDirectory></workingDirectory>
+    <timeout>300000</timeout>
+    <variableStdout>stdout</variableStdout>
+    <variableStderr>stderr</variableStderr>
+    <variableExitCode>exit_code</variableExitCode>
+  </action>
+  <action type="execute_root_command">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐨𝐟𝐟 𝐚𝐧𝐢𝐦𝐚𝐭𝐢𝐨𝐧 - 1</name>
+    <command>settings put global animator_duration_scale 0</command>
+    <user></user>
+    <seContext></seContext>
+    <workingDirectory></workingDirectory>
+    <timeout>300000</timeout>
+    <variableStdout>stdout</variableStdout>
+    <variableStderr>stderr</variableStderr>
+    <variableExitCode>exit_code</variableExitCode>
+  </action>
+  <action type="execute_root_command">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐨𝐟𝐟 𝐚𝐧𝐢𝐦𝐚𝐭𝐢𝐨𝐧 - 3</name>
+    <command>settings put global window_animation_scale 0</command>
+    <user></user>
+    <seContext></seContext>
+    <workingDirectory></workingDirectory>
+    <timeout>300000</timeout>
+    <variableStdout>stdout</variableStdout>
+    <variableStderr>stderr</variableStderr>
+    <variableExitCode>exit_code</variableExitCode>
+  </action>
+  <action type="execute_root_command">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐨𝐟𝐟 𝐚𝐧𝐢𝐦𝐚𝐭𝐢𝐨𝐧 - 𝟐</name>
+    <command>settings put global transition_animation_scale 0</command>
+    <user></user>
+    <seContext></seContext>
+    <workingDirectory></workingDirectory>
+    <timeout>300000</timeout>
+    <variableStdout>stdout</variableStdout>
+    <variableStderr>stderr</variableStderr>
+    <variableExitCode>exit_code</variableExitCode>
+  </action>
+  <action type="dismiss_slide_to_unlock_keyguard">
+    <useDefaultName>false</useDefaultName>
+    <name>𝐮𝐧𝐥𝐨𝐜𝐤</name>
+  </action>
+  <action type="control_user_interface">
+    <useDefaultName>false</useDefaultName>
+    <name>𝗢𝗞2</name>
+    <script>click("ดาวน์โหลด");</script>
+  </action>
+  <action type="control_user_interface">
+    <useDefaultName>false</useDefaultName>
+    <name>𝗣𝗹𝗮𝘆 </name>
+    <script>
+touchGesture(0,1,newList(global_X2, global_Y2));
+
+//ธรรมดา</script>
+  </action>
+  <action type="control_user_interface">
+    <useDefaultName>false</useDefaultName>
+    <name>𝗣𝗹𝗮𝘆 𝗠𝗮𝗰𝗿𝗼</name>
+    <script>
+touchGesture(0,1, newList(global_X1, global_Y1));
+sleep(162);
+touchGesture(0,1, newList(global_X2, global_Y2));
+sleep(130);
+touchGesture(0,1, newList(global_X3, global_Y3));
+//3จังหวะ</script>
+  </action>
+  <action type="set_flow_state">
+    <useDefaultName>false</useDefaultName>
+    <name>𝟒.𝟎 𝐅𝐢𝐱</name>
+    <enable>true</enable>
+    <includeFlowNamePatternList>☔ [ • 𝟒.𝟎 𝐅𝐢𝐱 • ] ☔</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <action type="set_flow_state">
+    <useDefaultName>false</useDefaultName>
+    <name>𝟒.𝟏𝐅𝐢𝐱</name>
+    <enable>true</enable>
+    <includeFlowNamePatternList>☔ [ • 𝟒.𝟏 𝐅𝐢𝐱 • ] ☔</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+  </action>
+  <flow type="flow">
+    <name>☔ [ • 𝐀𝐮𝐭𝐨 𝐑𝐮𝐧 • ] ☔</name>
+    <description>𝐑𝐨𝐛𝐢𝐧𝐡𝐨𝐨𝐝</description>
+    <group>☔ [ • 𝐑𝐨𝐛𝐢𝐧𝐡𝐨𝐨𝐝 • ] ☔</group>
+    <enabled>false</enabled>
+    <executionPolicy>PARALLEL</executionPolicy>
+    <emergencyStopCount>999999</emergencyStopCount>
+    <triggercontainer id="t1" x="105.0" y="-192.5">
+      <trigger>𝐀𝐮𝐭𝐨 𝐑𝐮𝐧</trigger>
+    </triggercontainer>
+    <actioncontainer id="t2" x="-70.0" y="-192.5">𝐑𝐨𝐛𝐢𝐧𝐇𝐨𝐨𝐝</actioncontainer>
+    <actioncontainer id="t3" x="105.0" y="-332.5">𝐮𝐧𝐥𝐨𝐜𝐤</actioncontainer>
+    <actioncontainer id="t4" x="105.0" y="-52.5">𝐒𝐥𝐞𝐞𝐩</actioncontainer>
+    <actioncontainer id="t5" x="105.0" y="87.5">𝐂𝐥𝐞𝐚𝐫</actioncontainer>
+    <actioncontainer id="t6" x="105.0" y="227.5">𝐂𝐥𝐞𝐚𝐫 𝐜𝐥𝐢𝐩𝐛𝐨𝐚𝐫𝐝</actioncontainer>
+    <actioncontainer id="t7" x="105.0" y="367.5">𝐒𝐭𝐨𝐩 𝐟𝐥𝐨𝐰𝐞</actioncontainer>
+    <actioncontainer id="t8" x="105.0" y="-472.5">𝐓𝐮𝐫𝐧 𝐬𝐜𝐫𝐞𝐞𝐧</actioncontainer>
+    <actioncontainer id="t9" x="280.0" y="-192.5">𝐊𝐞𝐲 𝐍𝐞𝐭𝐟𝐥𝐢𝐱 </actioncontainer>
+    <connection from="t1" to="t4" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t1" to="t2" type="NORMAL" sourcePosition="WEST" targetPosition="EAST" />
+    <connection from="t1" to="t9" type="NORMAL" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t1" to="t3" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t3" to="t8" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t4" to="t5" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t5" to="t6" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t6" to="t7" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t8" to="t2" type="NORMAL" sourcePosition="WEST" targetPosition="NORTH" />
+  </flow>
+  <flow type="flow">
+    <name>☔ [ • 𝐎𝐧𝐞 𝐬𝐡𝐨𝐭  • ] ☔</name>
+    <description>𝐑𝐨𝐛𝐢𝐧𝐡𝐨𝐨𝐝</description>
+    <group>☔ [ • 𝐑𝐨𝐛𝐢𝐧𝐡𝐨𝐨𝐝 • ] ☔</group>
+    <enabled>false</enabled>
+    <executionPolicy>PARALLEL</executionPolicy>
+    <triggercontainer id="t1" x="559.99994" y="-52.500015">
+      <trigger>𝐂𝐥𝐢𝐜𝐤𝐞𝐝  </trigger>
+    </triggercontainer>
+    <notecontainer id="t2" x="-455.0" y="297.5" w="140.0" h="105.0">เลื่อน
+99</notecontainer>
+    <actioncontainer id="t3" x="175.0" y="-227.5">Sleep: 600ms (keep device awake)</actioncontainer>
+    <actioncontainer id="t4" x="175.0" y="87.5"> 𝗣𝗹𝗮𝘆 𝗢𝗰𝗿</actioncontainer>
+    <notecontainer id="t5" x="210.0" y="717.5" w="140.0" h="105.0">48</notecontainer>
+    <actioncontainer id="t6" x="350.0" y="87.5">𝗣𝗹𝗮𝘆 𝗠𝗮𝗰𝗿𝗼</actioncontainer>
+    <actioncontainer id="t7" x="560.0" y="87.5">𝗣𝗹𝗮𝘆 </actioncontainer>
+    <connection from="t1" to="t7" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+  </flow>
+  <flow type="flow">
+    <name>☔ [ • 𝐏𝐫𝐢𝐜𝐞 𝐥𝐨𝐜𝐤 • ] ☔</name>
+    <description> [ • 𝐏𝐫𝐢𝐜𝐞 𝐥𝐨𝐜𝐤 • ] </description>
+    <group>💰[ • 𝐏𝐫𝐢𝐜𝐞 𝐥𝐨𝐜𝐤 • ]💰</group>
+    <enabled>false</enabled>
+    <executionPolicy>PARALLEL</executionPolicy>
+    <emergencyStopCount>999999</emergencyStopCount>
+    <triggercontainer id="t1" x="1610.0" y="-2047.5">
+      <trigger>𝐀𝐮𝐭𝐨 𝐑𝐮𝐧</trigger>
+    </triggercontainer>
+    <notecontainer id="t2" x="1610.0" y="-2467.5" w="350.0" h="315.0">ชุด Running 
+
+เป็นชุด เงื่อนไข ที่ต้องการรับงาน
+
+หรือ ล็อคงานที่ต้องการ
+
+สามารถแก้ไข เงื่อนไขได้ ตามต้องการ
+
+แก้ได้ที่ BOX Running ได้เลย
+
+(ชุดต้นฉบับ NOFACE ล็อคไว้ที่ 0.00 - 2.49 KM)</notecontainer>
+    <notecontainer id="t3" x="945.0" y="-1907.5" w="490.0" h="665.0">การใส่คำสั่งเงื่อนไข Lock 
+ใส่ได้ที่ Box Running 
+
+----------------------------------
+ตัวอย่าง ล็อกกิโล อย่างเดียว ไปทุกราคา
+(คำสั่งกิโล ก่อนใส่ ให้ เว้นวรร 1 ครั้ง ก่อน ดูตามตัวอย่าง)
+
+"* 0.?*"          คือรับงาน ( 0.00 - 0.99 กิโล)
+
+"* 1.?*"          คือรับงาน ( 1.00 - 1.99 กิโล)
+
+"* 2.?*"          คือรับงาน ( 2.00 - 2.99 กิโล)
+
+"* 3.?*"          คือรับงาน ( 3.00 - 3.99 กิโล)
+
+"* 3.1*"          คือรับงาน ( 3.1 กิโล เท่านั้น)
+
+----------------------------------
+ตัวอย่าง ล็อค  ราคา
+
+"*\n4?.0*"          คือรับงาน ( ราคา 40 ถึง 49 )
+
+"*\n43.0*"         คือรับงาน ( ราคา 43 เท่านั้น )
+
+"*\n5?.0*"         คือรับงาน ( ราคา 50 ถึง 59 )
+
+"*\n??.0*          คือรับงาน ( ราคา 39 ถึง 99 )
+
+"*\n???.0*"       คือรับงาน ( ราคา 100 ถึง 999 )
+
+----------------------------------
+
+(ถ้าใส่เงื่อนไขไม่หมด ให้ใส่คำว่า "*ไม่มี*" ลงไป อย่าปล่อยว่าง)</notecontainer>
+    <actioncontainer id="t4" x="1365.0" y="-2012.5">BLACK APP
+
+NOFACE</actioncontainer>
+    <actioncontainer id="t5" x="1610.0" y="-1662.5">Clear PHANToM Log</actioncontainer>
+    <conditioncontainer id="t6" x="1610.0" y="-1802.5">UI KILO
+
+NOFACEาา</conditioncontainer>
+    <actioncontainer id="t7" x="1295.0" y="-1627.5">Control UI: global_Destination = "บางแม่นาง,บางเลน,เสาธงหิน"; Destination = ".*{global_Destination}.*"; Destination_List = replaceAll(Destination,',','.*|.*'); Destination_detect_14 = findAll(global_At14,'.*\n[0-9][0-9].[0-9]'); Destination_detect_14st = replaceAll(Destination_detect_14,'\n[0-9][0-9].[0-9]]',''</actioncontainer>
+    <actioncontainer id="t8" x="1610.0" y="-1907.5">BOX
+Running ...
+
+แก้เงื่อนไข
+ตามต้องการรป  รไ.2</actioncontainer>
+    <actioncontainer id="t9" x="1925.0" y="-2047.5">Script: if(op == null){op = 4} else if(op != null){op = op + 4}</actioncontainer>
+    <conditioncontainer id="t10" x="1925.0" y="-1802.5">Expression: op &gt;= 100</conditioncontainer>
+    <actioncontainer id="t11" x="2170.0" y="-1802.5">Stop Flows: ☔ [ • 𝐏𝐫𝐢𝐜𝐞 𝐥𝐨𝐜𝐤 • ] ☔</actioncontainer>
+    <actioncontainer id="t12" x="1925.0" y="-1557.5">Sleep: 10ms (keep device awake)</actioncontainer>
+    <connection from="t1" to="t2" type="NOTE" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t1" to="t8" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t1" to="t4" type="NORMAL" sourcePosition="WEST" targetPosition="EAST" />
+    <connection from="t1" to="t9" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t6" to="t5" type="FALSE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t6" to="t8" type="TRUE" sourcePosition="EAST" targetPosition="EAST" />
+    <connection from="t8" to="t3" type="NOTE" sourcePosition="WEST" targetPosition="EAST" />
+    <connection from="t8" to="t6" type="NORMAL" sourcePosition="WEST" targetPosition="WEST" />
+    <connection from="t9" to="t10" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t10" to="t12" type="FALSE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t10" to="t9" type="FALSE" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t10" to="t11" type="TRUE" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t11" to="t5" type="NORMAL" sourcePosition="SOUTH" targetPosition="EAST" />
+  </flow>
+  <flow type="flow">
+    <name>☔ [ • 𝟒.𝟎 𝐅𝐢𝐱 • ] ☔</name>
+    <description>𝐑𝐨𝐛𝐢𝐧𝐡𝐨𝐨𝐝</description>
+    <group>☔ [ • 𝐑𝐨𝐛𝐢𝐧𝐡𝐨𝐨𝐝 • ] ☔</group>
+    <enabled>false</enabled>
+    <executionPolicy>PARALLEL</executionPolicy>
+    <emergencyStopCount>99999</emergencyStopCount>
+    <triggercontainer id="t1" x="2485.0" y="822.5">
+      <trigger>𝐂𝐥𝐢𝐜𝐤𝐞𝐝  </trigger>
+    </triggercontainer>
+    <notecontainer id="t2" x="1365.0" y="-892.5" w="140.0" h="105.0">เลื่อน
+ 99</notecontainer>
+    <actioncontainer id="t3" x="1015.0" y="577.5">เคลียร์</actioncontainer>
+    <actioncontainer id="t4" x="665.0" y="577.5">ได้แกงแล้ว</actioncontainer>
+    <conditioncontainer id="t5" x="840.0" y="472.5">สไลด์-1</conditioncontainer>
+    <actioncontainer id="t6" x="665.0" y="332.5">copy </actioncontainer>
+    <notecontainer id="t7" x="1225.0" y="-192.5" w="140.0" h="105.0">รายรับ
+99</notecontainer>
+    <actioncontainer id="t8" x="1015.0" y="332.5">paste</actioncontainer>
+    <notecontainer id="t9" x="3080.0" y="52.5" w="140.0" h="105.0"></notecontainer>
+    <actioncontainer id="t10" x="2730.0" y="1312.5">𝐂𝐥𝐞𝐚𝐫</actioncontainer>
+    <actioncontainer id="t11" x="2730.0" y="892.5">𝐂𝐥𝐞𝐚𝐫 𝐜𝐥𝐢𝐩𝐛𝐨𝐚𝐫𝐝</actioncontainer>
+    <notecontainer id="t12" x="1750.0" y="122.5" w="140.0" h="105.0">รับงานเเล้ว</notecontainer>
+    <actioncontainer id="t13" x="1470.0" y="927.5">CLEAN
+NUMBER</actioncontainer>
+    <conditioncontainer id="t14" x="1470.0" y="1277.5">UI ABC</conditioncontainer>
+    <actioncontainer id="t15" x="1470.0" y="1102.5">checkออเดอร์</actioncontainer>
+    <actioncontainer id="t16" x="2730.0" y="1172.5">𝐏𝐚𝐬𝐭𝐞</actioncontainer>
+    <actioncontainer id="t17" x="2730.0" y="1032.5">𝐏𝐚𝐬𝐭𝐞 𝐍𝐮𝐦𝐛𝐞𝐫</actioncontainer>
+    <actioncontainer id="t18" x="2485.0" y="1032.5">longclick</actioncontainer>
+    <conditioncontainer id="t19" x="2485.0" y="1172.5">order</conditioncontainer>
+    <actioncontainer id="t20" x="2485.0" y="1347.5">Paste</actioncontainer>
+    <connection from="t1" to="t18" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t4" to="t3" type="NORMAL" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t5" to="t4" type="TRUE" sourcePosition="SOUTH" targetPosition="EAST" />
+    <connection from="t5" to="t6" type="FALSE" sourcePosition="NORTH" targetPosition="EAST" />
+    <connection from="t6" to="t8" type="NORMAL" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t8" to="t5" type="NORMAL" sourcePosition="WEST" targetPosition="NORTH" />
+    <connection from="t11" to="t17" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t13" to="t15" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t15" to="t14" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t16" to="t17" type="NORMAL" sourcePosition="EAST" targetPosition="EAST" />
+    <connection from="t16" to="t10" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t17" to="t16" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t18" to="t19" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t19" to="t18" type="FALSE" sourcePosition="WEST" targetPosition="WEST" />
+    <connection from="t19" to="t20" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+  </flow>
+  <flow type="flow">
+    <name>☔ [ • 𝟒.𝟏 𝐅𝐢𝐱 • ] ☔</name>
+    <description>𝐑𝐨𝐛𝐢𝐧𝐡𝐨𝐨𝐝</description>
+    <group>☔ [ • 𝐑𝐨𝐛𝐢𝐧𝐡𝐨𝐨𝐝 • ] ☔</group>
+    <enabled>false</enabled>
+    <executionPolicy>PARALLEL</executionPolicy>
+    <emergencyStopCount>99999</emergencyStopCount>
+    <triggercontainer id="t1" x="560.0" y="227.5">
+      <trigger>𝐂𝐥𝐢𝐜𝐤𝐞𝐝  </trigger>
+    </triggercontainer>
+    <notecontainer id="t2" x="-700.0" y="542.5" w="140.0" h="105.0">เลื่อน
+30</notecontainer>
+    <conditioncontainer id="t3" x="70.0" y="787.5">Text </conditioncontainer>
+    <actioncontainer id="t4" x="560.0" y="822.5">𝐂𝐥𝐞𝐚𝐫</actioncontainer>
+    <actioncontainer id="t5" x="-350.0" y="262.5">𝐂𝐥𝐞𝐚𝐫 𝐜𝐥𝐢𝐩𝐛𝐨𝐚𝐫𝐝</actioncontainer>
+    <actioncontainer id="t6" x="-350.0" y="402.5">𝐂𝐨𝐩𝐲  𝐧𝐮𝐦𝐛𝐞𝐫</actioncontainer>
+    <conditioncontainer id="t7" x="-350.0" y="682.5">𝐬𝐥𝐢𝐝𝐞𝟏</conditioncontainer>
+    <actioncontainer id="t8" x="-350.0" y="822.5">𝐎𝐫𝐝𝐞𝐫</actioncontainer>
+    <conditioncontainer id="t9" x="-350.0" y="962.5">𝐎𝐫𝐝𝐞𝐫_𝟏</conditioncontainer>
+    <actioncontainer id="t10" x="70.0" y="892.5">𝐑𝐞𝐭𝐮𝐫𝐧</actioncontainer>
+    <conditioncontainer id="t11" x="-350.0" y="1102.5">𝐎𝐫𝐝𝐞𝐫_𝟐</conditioncontainer>
+    <actioncontainer id="t12" x="-140.0" y="1067.5">𝐂𝐥𝐞𝐚𝐫</actioncontainer>
+    <actioncontainer id="t13" x="-140.0" y="787.5">𝐑𝐞𝐭𝐮𝐫𝐧_𝟏</actioncontainer>
+    <actioncontainer id="t14" x="-140.0" y="927.5">𝐑𝐞𝐭𝐮𝐫𝐧_𝟐</actioncontainer>
+    <actioncontainer id="t15" x="70.0" y="577.5">𝐂𝐨𝐩𝐲  𝐧𝐮𝐦𝐛𝐞𝐫</actioncontainer>
+    <actioncontainer id="t16" x="70.0" y="472.5">𝐂𝐥𝐞𝐚𝐫 𝐜𝐥𝐢𝐩𝐛𝐨𝐚𝐫𝐝</actioncontainer>
+    <actioncontainer id="t17" x="70.0" y="1032.5">𝐂𝐥𝐞𝐚𝐫</actioncontainer>
+    <actioncontainer id="t18" x="70.0" y="682.5">𝐒𝐞𝐧𝐝 𝐧𝐮𝐦𝐛𝐞𝐫</actioncontainer>
+    <actioncontainer id="t19" x="-350.0" y="542.5">𝐒𝐞𝐧𝐝 𝐧𝐮𝐦𝐛𝐞𝐫"</actioncontainer>
+    <actioncontainer id="t20" x="70.0" y="122.5">ᴘʟᴀʏ ᴍᴀᴄʀᴏ</actioncontainer>
+    <actioncontainer id="t21" x="560.0" y="542.5">𝐂𝐨𝐩𝐲  𝐧𝐮𝐦𝐛𝐞𝐫</actioncontainer>
+    <actioncontainer id="t22" x="560.0" y="402.5">𝐂𝐥𝐞𝐚𝐫 𝐜𝐥𝐢𝐩𝐛𝐨𝐚𝐫𝐝</actioncontainer>
+    <actioncontainer id="t23" x="805.0" y="507.5">Script: if(op == null){op = 4} else if(op != null){op = op + 4}</actioncontainer>
+    <actioncontainer id="t24" x="980.0" y="612.5">Stop Flows</actioncontainer>
+    <actioncontainer id="t25" x="560.0" y="682.5">𝐒𝐞𝐧𝐝 𝐧𝐮𝐦𝐛𝐞𝐫𝐬</actioncontainer>
+    <conditioncontainer id="t26" x="805.0" y="612.5">Expression: op &gt;= 250</conditioncontainer>
+    <actioncontainer id="t27" x="805.0" y="717.5">Sleep: 10ms (keep device awake)</actioncontainer>
+    <notecontainer id="t28" x="787.5" y="1225.0" w="175.0" h="140.0">เลื่อน 
+99</notecontainer>
+    <connection from="t1" to="t22" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t1" to="t23" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t3" to="t15" type="FALSE" sourcePosition="EAST" targetPosition="EAST" />
+    <connection from="t3" to="t10" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t5" to="t6" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t6" to="t19" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t7" to="t8" type="FALSE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t7" to="t6" type="TRUE" sourcePosition="WEST" targetPosition="WEST" />
+    <connection from="t8" to="t9" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t9" to="t11" type="FALSE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t9" to="t13" type="TRUE" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t10" to="t17" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t11" to="t14" type="TRUE" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t13" to="t12" type="NORMAL" sourcePosition="WEST" targetPosition="WEST" />
+    <connection from="t14" to="t12" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t15" to="t18" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t16" to="t15" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t18" to="t3" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t19" to="t7" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t21" to="t25" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t22" to="t21" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t23" to="t26" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t24" to="t4" type="NORMAL" sourcePosition="SOUTH" targetPosition="EAST" />
+    <connection from="t25" to="t4" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t25" to="t21" type="NORMAL" sourcePosition="WEST" targetPosition="WEST" />
+    <connection from="t26" to="t27" type="FALSE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t26" to="t23" type="FALSE" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t26" to="t24" type="TRUE" sourcePosition="EAST" targetPosition="WEST" />
+  </flow>
+  <flow type="flow">
+    <name>🌟 [ • 𝐂𝐥𝐞𝐚𝐫 𝐋𝐨𝐠 • ] 🌟</name>
+    <description>𝐒𝐞𝐭𝐭𝐢𝐧𝐠</description>
+    <group>🌟 [ • 𝐒𝐞𝐭𝐭𝐢𝐧𝐠 • ] 🌟</group>
+    <enabled>true</enabled>
+    <executionPolicy>PARALLEL</executionPolicy>
+    <triggercontainer id="t1" x="-70.0" y="1347.5">
+      <trigger>Hardware Key Event: VOLUME_UP Down</trigger>
+    </triggercontainer>
+    <actioncontainer id="t2" x="-70.0" y="1627.5">𝐂𝐥𝐞𝐚𝐫 𝐋𝐨𝐠</actioncontainer>
+    <notecontainer id="t3" x="105.0" y="1697.5" w="140.0" h="105.0">longclickByIdAndIndex("",11);
+sleep(100);
+getBounds ("Paste");
+click("Paste");</notecontainer>
+    <actioncontainer id="t4" x="-70.0" y="1487.5">𝐑𝐞𝐦𝐨𝐯𝐞 𝐧𝐨𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬</actioncontainer>
+    <connection from="t1" to="t4" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t4" to="t2" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+  </flow>
+  <flow type="flow">
+    <name>🌟 [ • 𝐊𝐞𝐲𝐛𝐨𝐚𝐫𝐝 • ] 🌟</name>
+    <description>𝐒𝐞𝐭𝐭𝐢𝐧𝐠</description>
+    <group>🌟 [ • 𝐒𝐞𝐭𝐭𝐢𝐧𝐠 • ] 🌟</group>
+    <enabled>true</enabled>
+    <executionPolicy>PARALLEL</executionPolicy>
+    <triggercontainer id="t1" x="2625.0" y="-39287.5" />
+    <conditioncontainer id="t2" x="2520.0" y="-38972.5">[ • 𝟏.𝟏 • ]</conditioncontainer>
+    <conditioncontainer id="t3" x="2345.0" y="-38972.5">[ • 𝟏.𝟎 • ]</conditioncontainer>
+    <actioncontainer id="t4" x="2520.0" y="-38762.5">𝐊𝐞𝐲 𝐍𝐞𝐭𝐟𝐥𝐢𝐱 </actioncontainer>
+    <conditioncontainer id="t5" x="2730.0" y="-38972.5">[ • 𝟏.𝟐 • ]</conditioncontainer>
+    <conditioncontainer id="t6" x="2905.0" y="-38972.5">[ • 𝟏.3 • ]</conditioncontainer>
+    <actioncontainer id="t7" x="2905.0" y="-38762.5">𝐄𝐱𝐢𝐭</actioncontainer>
+    <actioncontainer id="t8" x="2730.0" y="-38762.5">𝐊𝐞𝐲 𝐇𝐮𝐛 </actioncontainer>
+    <actioncontainer id="t9" x="2800.0" y="-38097.5">un lock keyboard </actioncontainer>
+    <actioncontainer id="t10" x="2905.0" y="-38447.5">𝐂𝐥𝐞𝐚𝐫 𝐋𝐨𝐠</actioncontainer>
+    <actioncontainer id="t11" x="2730.0" y="-38447.5">𝐂𝐥𝐞𝐚𝐫 𝐋𝐨𝐠</actioncontainer>
+    <actioncontainer id="t12" x="2520.0" y="-38447.5">𝐂𝐥𝐞𝐚𝐫 𝐋𝐨𝐠</actioncontainer>
+    <actioncontainer id="t13" x="2345.0" y="-38447.5">𝐂𝐥𝐞𝐚𝐫 𝐋𝐨𝐠</actioncontainer>
+    <actioncontainer id="t14" x="2345.0" y="-38587.5">Gboard</actioncontainer>
+    <actioncontainer id="t15" x="2520.0" y="-38587.5">Netflix</actioncontainer>
+    <actioncontainer id="t16" x="2730.0" y="-38587.5">Hub</actioncontainer>
+    <actioncontainer id="t17" x="2905.0" y="-38587.5">𝐒𝐭𝐨𝐩 𝐅𝐥𝐨𝐰𝐬</actioncontainer>
+    <actioncontainer id="t18" x="2625.0" y="-39287.5">𝐌𝐞𝐧𝐮-𝐊𝐞𝐲𝐛𝐨𝐚𝐫𝐝</actioncontainer>
+    <actioncontainer id="t19" x="2345.0" y="-38762.5">𝐊𝐞𝐲 𝐆-𝐛𝐨𝐚𝐫𝐝 </actioncontainer>
+    <actioncontainer id="t20" x="2625.0" y="-39147.5">[ • 𝐊𝐞𝐲𝐛𝐨𝐚𝐫𝐝  • ]</actioncontainer>
+    <connection from="t1" to="t20" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t2" to="t4" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t3" to="t19" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t4" to="t15" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t5" to="t8" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t6" to="t7" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t7" to="t17" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t8" to="t16" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t14" to="t20" type="NORMAL" sourcePosition="NORTH" targetPosition="WEST" />
+    <connection from="t14" to="t13" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t15" to="t20" type="NORMAL" sourcePosition="NORTH" targetPosition="WEST" />
+    <connection from="t15" to="t12" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t16" to="t20" type="NORMAL" sourcePosition="NORTH" targetPosition="EAST" />
+    <connection from="t16" to="t11" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t17" to="t10" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t19" to="t14" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t20" to="t2" type="NORMAL" sourcePosition="WEST" targetPosition="NORTH" />
+    <connection from="t20" to="t3" type="NORMAL" sourcePosition="WEST" targetPosition="NORTH" />
+    <connection from="t20" to="t5" type="NORMAL" sourcePosition="EAST" targetPosition="NORTH" />
+    <connection from="t20" to="t6" type="NORMAL" sourcePosition="EAST" targetPosition="NORTH" />
+  </flow>
+  <flow type="flow">
+    <name>🌟 [ • 𝐌𝐞𝐧𝐮 • ] 🌟</name>
+    <description>𝐒𝐞𝐭𝐭𝐢𝐧𝐠</description>
+    <group>🌟 [ • 𝐒𝐞𝐭𝐭𝐢𝐧𝐠 • ] 🌟</group>
+    <enabled>true</enabled>
+    <executionPolicy>PARALLEL</executionPolicy>
+    <actioncontainer id="t1" x="-1260.0" y="-192.5">𝟒.𝟎 𝐅𝐢𝐱</actioncontainer>
+    <actioncontainer id="t2" x="-1085.0" y="-192.5">𝐎𝐧𝐞 𝐬𝐡𝐨𝐭</actioncontainer>
+    <conditioncontainer id="t3" x="-1785.0" y="-367.5">[ • 0 • ]</conditioncontainer>
+    <conditioncontainer id="t4" x="-1610.0" y="-367.5">[ • 1 • ]</conditioncontainer>
+    <conditioncontainer id="t5" x="-1435.0" y="-367.5">[ • 2 • ]</conditioncontainer>
+    <actioncontainer id="t6" x="-1435.0" y="3132.5">Set_X2</actioncontainer>
+    <actioncontainer id="t7" x="-735.0" y="-192.5">set_Speed</actioncontainer>
+    <actioncontainer id="t8" x="-385.0" y="-52.5">𝐒𝐜𝐚𝐥𝐞 𝐀𝐧𝐢𝐦𝐚𝐭𝐢𝐨𝐧</actioncontainer>
+    <actioncontainer id="t9" x="-385.0" y="-52.5">𝐂𝐥𝐞𝐚𝐫  𝐋𝐨𝐠</actioncontainer>
+    <actioncontainer id="t10" x="-385.0" y="-52.5">𝐒𝐜𝐚𝐥𝐞 𝐀𝐧𝐢𝐦𝐚𝐭𝐢𝐨𝐧 - 𝟐</actioncontainer>
+    <actioncontainer id="t11" x="-385.0" y="-52.5">𝐒𝐜𝐚𝐥𝐞 𝐀𝐧𝐢𝐦𝐚𝐭𝐢𝐨𝐧 - 𝟑</actioncontainer>
+    <actioncontainer id="t12" x="-385.0" y="-52.5">𝐨𝐟𝐟 𝐚𝐧𝐢𝐦𝐚𝐭𝐢𝐨𝐧</actioncontainer>
+    <actioncontainer id="t13" x="-385.0" y="-52.5">𝐒𝐥𝐞𝐞𝐩_𝐒𝐜𝐚𝐥𝐞</actioncontainer>
+    <actioncontainer id="t14" x="140.0" y="-192.5"> [ • 𝐒𝐞𝐭 𝐚𝐩𝐩 • ]</actioncontainer>
+    <conditioncontainer id="t15" x="315.0" y="-367.5">[ • 12 • ]</conditioncontainer>
+    <conditioncontainer id="t16" x="140.0" y="-367.5">[ • 11 • ]</conditioncontainer>
+    <conditioncontainer id="t17" x="-35.0" y="-367.5">[ • 10 • ]</conditioncontainer>
+    <conditioncontainer id="t18" x="-210.0" y="-367.5">[ • 9 • ]</conditioncontainer>
+    <conditioncontainer id="t19" x="-385.0" y="-367.5">[ • 8 • ]</conditioncontainer>
+    <conditioncontainer id="t20" x="-735.0" y="-367.5">[ • 6 • ]</conditioncontainer>
+    <conditioncontainer id="t21" x="-910.0" y="-367.5">[ •5• ]</conditioncontainer>
+    <conditioncontainer id="t22" x="-1085.0" y="-367.5">[ • 4 • ]</conditioncontainer>
+    <conditioncontainer id="t23" x="-1260.0" y="-367.5">[ • 3 • ]</conditioncontainer>
+    <actioncontainer id="t24" x="-1610.0" y="-192.5">𝐒𝐞𝐧𝐝 𝐧𝐮𝐦𝐛𝐞𝐫</actioncontainer>
+    <actioncontainer id="t25" x="-1435.0" y="-192.5">𝟒.𝟏𝐅𝐢𝐱</actioncontainer>
+    <actioncontainer id="t26" x="-910.0" y="87.5">Set_Y</actioncontainer>
+    <actioncontainer id="t27" x="-910.0" y="87.5">Set_X</actioncontainer>
+    <actioncontainer id="t28" x="-910.0" y="87.5">True</actioncontainer>
+    <actioncontainer id="t29" x="-910.0" y="87.5">Set_Y2</actioncontainer>
+    <actioncontainer id="t30" x="-910.0" y="87.5">one</actioncontainer>
+    <actioncontainer id="t31" x="-910.0" y="87.5">three</actioncontainer>
+    <actioncontainer id="t32" x="-910.0" y="87.5">Set_Y1</actioncontainer>
+    <actioncontainer id="t33" x="-910.0" y="87.5">Y1</actioncontainer>
+    <actioncontainer id="t34" x="-910.0" y="87.5">X1</actioncontainer>
+    <actioncontainer id="t35" x="-910.0" y="87.5">Y2</actioncontainer>
+    <actioncontainer id="t36" x="-910.0" y="87.5">Set_X1</actioncontainer>
+    <actioncontainer id="t37" x="-910.0" y="87.5">X3</actioncontainer>
+    <actioncontainer id="t38" x="-910.0" y="87.5">Y3</actioncontainer>
+    <actioncontainer id="t39" x="-910.0" y="87.5">X2</actioncontainer>
+    <actioncontainer id="t40" x="-385.0" y="-192.5">𝐒𝐥𝐞𝐞𝐩_𝐒𝐜𝐚𝐥𝐞7</actioncontainer>
+    <actioncontainer id="t41" x="140.0" y="-52.5"> [ • 𝐒𝐞𝐭 𝐚𝐩𝐩𝐬 • ]</actioncontainer>
+    <actioncontainer id="t42" x="-1785.0" y="-192.5">𝐀𝐮𝐭𝐨 𝐫𝐮𝐧</actioncontainer>
+    <actioncontainer id="t43" x="-1785.0" y="-17.5">Popup</actioncontainer>
+    <actioncontainer id="t44" x="-385.0" y="87.5">scale on</actioncontainer>
+    <actioncontainer id="t45" x="-1435.0" y="-17.5">𝐒𝐞𝐭𝐓𝐞𝐱𝐭 𝟒.𝟏𝐅𝐢𝐱</actioncontainer>
+    <actioncontainer id="t46" x="-1260.0" y="-17.5">𝐒𝐞𝐭𝐓𝐞𝐱𝐭 𝟒.𝟎 𝐅𝐢𝐱</actioncontainer>
+    <actioncontainer id="t47" x="-1435.0" y="3132.5">Set_X1</actioncontainer>
+    <actioncontainer id="t48" x="-1435.0" y="3132.5">one</actioncontainer>
+    <actioncontainer id="t49" x="-1435.0" y="3132.5">Set_Y2</actioncontainer>
+    <actioncontainer id="t50" x="-1435.0" y="3132.5">True</actioncontainer>
+    <actioncontainer id="t51" x="-1435.0" y="3132.5">Set_Y1</actioncontainer>
+    <actioncontainer id="t52" x="-1435.0" y="3132.5">Set_Y</actioncontainer>
+    <actioncontainer id="t53" x="-1435.0" y="3132.5">Set_X</actioncontainer>
+    <actioncontainer id="t54" x="-1435.0" y="3132.5">three</actioncontainer>
+    <conditioncontainer id="t55" x="-1435.0" y="2992.5">[ • 6.2• ]</conditioncontainer>
+    <conditioncontainer id="t56" x="-1435.0" y="2992.5">[ • 6.𝟏 • ]</conditioncontainer>
+    <conditioncontainer id="t57" x="-1435.0" y="2992.5">[ • 6.5 • ]</conditioncontainer>
+    <conditioncontainer id="t58" x="-1435.0" y="2992.5">[ • 6.3 • ]</conditioncontainer>
+    <conditioncontainer id="t59" x="-1435.0" y="2992.5">[ • 6.0 • ]</conditioncontainer>
+    <conditioncontainer id="t60" x="-1435.0" y="2992.5">[ • 6.8• ]</conditioncontainer>
+    <conditioncontainer id="t61" x="-1435.0" y="2992.5">[ • 6.7 • ]</conditioncontainer>
+    <conditioncontainer id="t62" x="-1435.0" y="2992.5">[ • 6.6 • ]</conditioncontainer>
+    <conditioncontainer id="t63" x="-1435.0" y="2992.5">[ • 6.4 • ]</conditioncontainer>
+    <actioncontainer id="t64" x="-1435.0" y="3272.5">Y2</actioncontainer>
+    <actioncontainer id="t65" x="-1435.0" y="3272.5">Y3</actioncontainer>
+    <actioncontainer id="t66" x="-1435.0" y="3272.5">X3</actioncontainer>
+    <actioncontainer id="t67" x="-1435.0" y="3272.5">X2</actioncontainer>
+    <actioncontainer id="t68" x="-1435.0" y="3272.5">Y1</actioncontainer>
+    <actioncontainer id="t69" x="-1435.0" y="2852.5">[ • 𝐒𝐞𝐭 𝐎𝐜𝐫 • ]</actioncontainer>
+    <conditioncontainer id="t70" x="-1435.0" y="2677.5">[ • 𝟑.𝟎 • ]</conditioncontainer>
+    <actioncontainer id="t71" x="-1085.0" y="2992.5">𝐨𝐟𝐟 𝐚𝐧𝐢𝐦𝐚𝐭𝐢𝐨𝐧 - 1</actioncontainer>
+    <actioncontainer id="t72" x="-1085.0" y="2992.5">𝐒𝐜𝐚𝐥𝐞 𝐀𝐧𝐢𝐦𝐚𝐭𝐢𝐨𝐧 - 𝟑</actioncontainer>
+    <actioncontainer id="t73" x="-1085.0" y="2992.5">𝐨𝐟𝐟 𝐚𝐧𝐢𝐦𝐚𝐭𝐢𝐨𝐧</actioncontainer>
+    <actioncontainer id="t74" x="-1085.0" y="2992.5">𝐨𝐟𝐟 𝐚𝐧𝐢𝐦𝐚𝐭𝐢𝐨𝐧 - 𝟐</actioncontainer>
+    <actioncontainer id="t75" x="-1085.0" y="2992.5">𝐒𝐜𝐚𝐥𝐞 𝐀𝐧𝐢𝐦𝐚𝐭𝐢𝐨𝐧 - 𝟏</actioncontainer>
+    <actioncontainer id="t76" x="-1085.0" y="2992.5">𝐒𝐜𝐚𝐥𝐞 𝐀𝐧𝐢𝐦𝐚𝐭𝐢𝐨𝐧</actioncontainer>
+    <actioncontainer id="t77" x="-1085.0" y="2992.5">𝐨𝐟𝐟 𝐚𝐧𝐢𝐦𝐚𝐭𝐢𝐨𝐧 - 3</actioncontainer>
+    <actioncontainer id="t78" x="-1085.0" y="2992.5">𝐒𝐜𝐚𝐥𝐞 𝐀𝐧𝐢𝐦𝐚𝐭𝐢𝐨𝐧 - 𝟐</actioncontainer>
+    <actioncontainer id="t79" x="-1085.0" y="2852.5">𝐒𝐥𝐞𝐞𝐩_𝐒𝐜𝐚𝐥𝐞7</actioncontainer>
+    <actioncontainer id="t80" x="-1085.0" y="3132.5">scale on</actioncontainer>
+    <actioncontainer id="t81" x="-1085.0" y="2992.5">𝐒𝐥𝐞𝐞𝐩_𝐒𝐜𝐚𝐥𝐞</actioncontainer>
+    <actioncontainer id="t82" x="-1435.0" y="3272.5">X1</actioncontainer>
+    <actioncontainer id="t83" x="-1085.0" y="2992.5">𝐂𝐥𝐞𝐚𝐫  𝐋𝐨𝐠</actioncontainer>
+    <actioncontainer id="t84" x="-1260.0" y="2852.5">𝐒𝐜𝐚𝐥𝐞 𝐀𝐧𝐢𝐦𝐚𝐭𝐢𝐨𝐧 Number</actioncontainer>
+    <actioncontainer id="t85" x="-1260.0" y="2992.5">Script: global_scale = value;</actioncontainer>
+    <actioncontainer id="t86" x="-1260.0" y="3132.5">scalevalu</actioncontainer>
+    <actioncontainer id="t87" x="-1260.0" y="3272.5">scale1 off</actioncontainer>
+    <actioncontainer id="t88" x="-875.0" y="2992.5">Dpi+value </actioncontainer>
+    <actioncontainer id="t89" x="-875.0" y="2852.5">set Dpi</actioncontainer>
+    <conditioncontainer id="t90" x="-1085.0" y="2677.5">[ • 𝟑.𝟐 • ]</conditioncontainer>
+    <conditioncontainer id="t91" x="-1260.0" y="2677.5">[ • 𝟑.𝟏 • ]</conditioncontainer>
+    <conditioncontainer id="t92" x="-875.0" y="2677.5">[ • 𝟑.𝟑 • ]</conditioncontainer>
+    <actioncontainer id="t93" x="-875.0" y="3132.5">Execute Dpi</actioncontainer>
+    <actioncontainer id="t94" x="-700.0" y="2992.5"> [ • 𝐒𝐞𝐭 𝐚𝐩𝐩𝐬 • ]</actioncontainer>
+    <conditioncontainer id="t95" x="-700.0" y="2677.5">[ • 𝟑.𝟒 • ]</conditioncontainer>
+    <conditioncontainer id="t96" x="-525.0" y="2677.5">[ • 𝟑.𝟓 • ]</conditioncontainer>
+    <actioncontainer id="t97" x="-525.0" y="2992.5">T_1</actioncontainer>
+    <conditioncontainer id="t98" x="-350.0" y="2677.5">[ • 𝟑.6 • ]</conditioncontainer>
+    <actioncontainer id="t99" x="-350.0" y="2852.5">[ • 𝐁𝐥𝐚𝐜𝐤 • ]</actioncontainer>
+    <actioncontainer id="t100" x="-350.0" y="2992.5">𝐂𝐥𝐞𝐚𝐫 𝐋𝐨𝐠</actioncontainer>
+    <actioncontainer id="t101" x="-175.0" y="2817.5">[ • 𝐟𝐥𝐨𝐰𝐞 𝐬𝐭𝐨𝐩 •]</actioncontainer>
+    <conditioncontainer id="t102" x="-175.0" y="2677.5">[ • 𝟒.𝟎 • ]</conditioncontainer>
+    <actioncontainer id="t103" x="-175.0" y="2957.5">Switch Off</actioncontainer>
+    <actioncontainer id="t104" x="-175.0" y="3097.5">switch Off M</actioncontainer>
+    <conditioncontainer id="t105" x="35.0" y="2677.5">[ • 𝟒.𝟏 • ]</conditioncontainer>
+    <actioncontainer id="t106" x="35.0" y="2817.5">[ • 𝐇𝐢𝐝𝐞  𝐖𝐢𝐝𝐠𝐞𝐭 • ]</actioncontainer>
+    <actioncontainer id="t107" x="35.0" y="2957.5">Off</actioncontainer>
+    <actioncontainer id="t108" x="210.0" y="2957.5">𝐂𝐥𝐞𝐚𝐫 𝐋𝐨𝐠</actioncontainer>
+    <actioncontainer id="t109" x="35.0" y="3097.5">𝐂𝐥𝐞𝐚𝐫 𝐋𝐨𝐠</actioncontainer>
+    <actioncontainer id="t110" x="420.0" y="3097.5">𝐂𝐥𝐞𝐚𝐫 𝐋𝐨𝐠</actioncontainer>
+    <actioncontainer id="t111" x="420.0" y="2957.5">𝐒𝐭𝐨𝐩 𝐅𝐥𝐨𝐰𝐬</actioncontainer>
+    <actioncontainer id="t112" x="420.0" y="2817.5">𝐄𝐱𝐢𝐭</actioncontainer>
+    <conditioncontainer id="t113" x="595.0" y="2677.5">[ • 𝟓 • ]</conditioncontainer>
+    <conditioncontainer id="t114" x="210.0" y="2677.5">[ • 𝟒.𝟐 • ]</conditioncontainer>
+    <actioncontainer id="t115" x="35.0" y="2502.5">[ • 𝐒𝐞𝐭 𝐟𝐥𝐨𝐰𝐞 𝐬𝐭𝐨𝐩 • ]</actioncontainer>
+    <conditioncontainer id="t116" x="35.0" y="2362.5">[ • 𝟑 • ]</conditioncontainer>
+    <conditioncontainer id="t117" x="-980.0" y="2362.5">[ • 𝟐 • ]</conditioncontainer>
+    <conditioncontainer id="t118" x="-1680.0" y="2677.5">[ • 𝟏.6• ]</conditioncontainer>
+    <actioncontainer id="t119" x="-1680.0" y="2852.5">[ • 𝐁𝐥𝐚𝐜𝐤 • ]</actioncontainer>
+    <actioncontainer id="t120" x="-1680.0" y="2992.5">𝐂𝐥𝐞𝐚𝐫 𝐋𝐨𝐠</actioncontainer>
+    <actioncontainer id="t121" x="-1855.0" y="3027.5">RBH - off</actioncontainer>
+    <actioncontainer id="t122" x="-1855.0" y="2852.5">[ • 𝐟𝐥𝐨𝐰𝐞 𝐬𝐭𝐨𝐩 •]
+ RBH</actioncontainer>
+    <conditioncontainer id="t123" x="-1855.0" y="2677.5">[ • 𝟏.6• ]</conditioncontainer>
+    <conditioncontainer id="t124" x="-2030.0" y="2677.5">[ • 𝟏.5• ]</conditioncontainer>
+    <actioncontainer id="t125" x="-2030.0" y="2852.5">set_Speed</actioncontainer>
+    <actioncontainer id="t126" x="-2030.0" y="3027.5">global_Speed</actioncontainer>
+    <actioncontainer id="t127" x="-2205.0" y="3027.5">𝐎𝐧𝐞 𝐬𝐡𝐨𝐭𝐬</actioncontainer>
+    <actioncontainer id="t128" x="-2205.0" y="2852.5">𝐎𝐧𝐞 𝐬𝐡𝐨𝐭</actioncontainer>
+    <conditioncontainer id="t129" x="-2205.0" y="2677.5">[ • 𝟏.𝟒 • ]</conditioncontainer>
+    <conditioncontainer id="t130" x="-2380.0" y="2677.5">[ • 𝟏.𝟑 • ]</conditioncontainer>
+    <actioncontainer id="t131" x="-2380.0" y="2852.5">𝟒.𝟎 𝐅𝐢𝐱</actioncontainer>
+    <actioncontainer id="t132" x="-2380.0" y="3027.5">𝐒𝐞𝐭𝐓𝐞𝐱𝐭 𝟒.𝟎 𝐅𝐢𝐱</actioncontainer>
+    <actioncontainer id="t133" x="-2555.0" y="3027.5">𝐒𝐞𝐭𝐓𝐞𝐱𝐭 𝟒.𝟏𝐅𝐢𝐱</actioncontainer>
+    <actioncontainer id="t134" x="-2555.0" y="2852.5">𝟒.𝟏𝐅𝐢𝐱</actioncontainer>
+    <conditioncontainer id="t135" x="-2555.0" y="2677.5">[ • 𝟏.𝟐 • ]</conditioncontainer>
+    <conditioncontainer id="t136" x="-2730.0" y="2677.5">[ • 𝟏.𝟏 • ]</conditioncontainer>
+    <actioncontainer id="t137" x="-2730.0" y="2852.5">𝐒𝐞𝐧𝐝 𝐧𝐮𝐦𝐛𝐞𝐫</actioncontainer>
+    <conditioncontainer id="t138" x="-2905.0" y="2677.5">[ • 𝟏.𝟎 • ]</conditioncontainer>
+    <actioncontainer id="t139" x="-2905.0" y="2852.5">𝐀𝐮𝐭𝐨 𝐫𝐮𝐧</actioncontainer>
+    <actioncontainer id="t140" x="-2905.0" y="3027.5">Popup</actioncontainer>
+    <actioncontainer id="t141" x="-2380.0" y="2502.5">[ • 𝐑𝐨𝐛𝐢𝐧𝐡𝐨𝐨𝐝 • ]</actioncontainer>
+    <conditioncontainer id="t142" x="-2380.0" y="2362.5">[ • 𝟏 • ]</conditioncontainer>
+    <actioncontainer id="t143" x="-700.0" y="2852.5"> [ • 𝐒𝐞𝐭 𝐚𝐩𝐩 • ]</actioncontainer>
+    <actioncontainer id="t144" x="-525.0" y="2852.5">𝐒𝐡𝐨𝐰 𝐖𝐢𝐝𝐠𝐞𝐭</actioncontainer>
+    <actioncontainer id="t145" x="210.0" y="2817.5">[ • 𝐁𝐥𝐚𝐜𝐤 • ]</actioncontainer>
+    <conditioncontainer id="t146" x="805.0" y="2677.5">[ • 𝟐.𝟎 • ]</conditioncontainer>
+    <conditioncontainer id="t147" x="980.0" y="2677.5">[ • 𝟐.𝟏 • ]</conditioncontainer>
+    <conditioncontainer id="t148" x="1155.0" y="2677.5">[ • 𝟐.𝟐 • ]</conditioncontainer>
+    <actioncontainer id="t149" x="805.0" y="2887.5">[ • 𝐀𝐮𝐭𝐨 𝐑𝐮𝐧 • ]</actioncontainer>
+    <actioncontainer id="t150" x="1155.0" y="2887.5">[ • 𝐒𝐞𝐥𝐞𝐜𝐭 • ]</actioncontainer>
+    <actioncontainer id="t151" x="1155.0" y="3062.5">LM 2</actioncontainer>
+    <actioncontainer id="t152" x="980.0" y="3062.5">LM1</actioncontainer>
+    <actioncontainer id="t153" x="1330.0" y="3062.5">LM - off</actioncontainer>
+    <actioncontainer id="t154" x="980.0" y="2887.5">[ • 𝐆𝐞𝐭 𝐚𝐮𝐭𝐨 • ]</actioncontainer>
+    <actioncontainer id="t155" x="1505.0" y="3062.5">𝐂𝐥𝐞𝐚𝐫 𝐋𝐨𝐠</actioncontainer>
+    <actioncontainer id="t156" x="1505.0" y="2887.5">[ • 𝐁𝐥𝐚𝐜𝐤 • ]</actioncontainer>
+    <actioncontainer id="t157" x="805.0" y="3062.5">LM</actioncontainer>
+    <actioncontainer id="t158" x="1330.0" y="2887.5">[ • 𝐟𝐥𝐨𝐰𝐞 𝐬𝐭𝐨𝐩 •]
+     LM</actioncontainer>
+    <conditioncontainer id="t159" x="1330.0" y="2677.5">[ • 𝟐.𝟑 • ]</conditioncontainer>
+    <actioncontainer id="t160" x="1155.0" y="2537.5">[ • 𝐋𝐢𝐧𝐞 𝐦𝐚𝐧 • ]</actioncontainer>
+    <conditioncontainer id="t161" x="1505.0" y="2677.5">[ • 𝟐.𝟒 • ]</conditioncontainer>
+    <conditioncontainer id="t162" x="420.0" y="2677.5">[ • 𝟒 • ]</conditioncontainer>
+    <actioncontainer id="t163" x="-910.0" y="-192.5">[ • 𝐒𝐞𝐭 𝐎𝐜𝐫 • ]</actioncontainer>
+    <actioncontainer id="t164" x="-910.0" y="87.5">⪻⪻ 𝐄𝐱𝐢𝐭</actioncontainer>
+    <conditioncontainer id="t165" x="-910.0" y="-52.5">[ • 6.3 • ]</conditioncontainer>
+    <conditioncontainer id="t166" x="-910.0" y="-52.5">[ • 6.8• ]</conditioncontainer>
+    <conditioncontainer id="t167" x="-910.0" y="-52.5">[ • 6.6 • ]</conditioncontainer>
+    <conditioncontainer id="t168" x="-910.0" y="-52.5">[ • 6.7 • ]</conditioncontainer>
+    <conditioncontainer id="t169" x="-910.0" y="-52.5">[ • 6.9• ]</conditioncontainer>
+    <conditioncontainer id="t170" x="-910.0" y="-52.5">[ • 6.5 • ]</conditioncontainer>
+    <conditioncontainer id="t171" x="-910.0" y="-52.5">[ • 6.0 • ]</conditioncontainer>
+    <conditioncontainer id="t172" x="-910.0" y="-52.5">[ • 6.𝟏 • ]</conditioncontainer>
+    <conditioncontainer id="t173" x="-910.0" y="-52.5">[ • 6.2• ]</conditioncontainer>
+    <conditioncontainer id="t174" x="-910.0" y="-52.5">[ • 6.4 • ]</conditioncontainer>
+    <actioncontainer id="t175" x="-385.0" y="-52.5">𝐨𝐟𝐟 𝐚𝐧𝐢𝐦𝐚𝐭𝐢𝐨𝐧 - 3</actioncontainer>
+    <actioncontainer id="t176" x="-385.0" y="-52.5">𝐨𝐟𝐟 𝐚𝐧𝐢𝐦𝐚𝐭𝐢𝐨𝐧 - 𝟐</actioncontainer>
+    <actioncontainer id="t177" x="-385.0" y="-52.5">𝐨𝐟𝐟 𝐚𝐧𝐢𝐦𝐚𝐭𝐢𝐨𝐧 - 1</actioncontainer>
+    <actioncontainer id="t178" x="-385.0" y="-52.5">𝐒𝐜𝐚𝐥𝐞 𝐀𝐧𝐢𝐦𝐚𝐭𝐢𝐨𝐧 - 𝟏</actioncontainer>
+    <actioncontainer id="t179" x="-210.0" y="-192.5">𝐒𝐜𝐚𝐥𝐞 𝐀𝐧𝐢𝐦𝐚𝐭𝐢𝐨𝐧 Number</actioncontainer>
+    <actioncontainer id="t180" x="-210.0" y="-52.5">Script: global_scale = value;</actioncontainer>
+    <actioncontainer id="t181" x="-210.0" y="87.5">scalevalu</actioncontainer>
+    <conditioncontainer id="t182" x="-560.0" y="-367.5">[ • 7 • ]</conditioncontainer>
+    <actioncontainer id="t183" x="-910.0" y="87.5">Set_X2</actioncontainer>
+    <actioncontainer id="t184" x="-1085.0" y="-17.5">𝐎𝐧𝐞 𝐬𝐡𝐨𝐭𝐬</actioncontainer>
+    <actioncontainer id="t185" x="315.0" y="-192.5">𝐒𝐡𝐨𝐰 𝐖𝐢𝐝𝐠𝐞𝐭</actioncontainer>
+    <actioncontainer id="t186" x="-210.0" y="227.5">scale1 off</actioncontainer>
+    <actioncontainer id="t187" x="-560.0" y="-192.5">[ • 𝐟𝐥𝐨𝐰𝐞 𝐬𝐭𝐨𝐩 • ]</actioncontainer>
+    <conditioncontainer id="t188" x="-560.0" y="-52.5">[ •0.• ]</conditioncontainer>
+    <conditioncontainer id="t189" x="-560.0" y="-52.5">[ • 1. • ]</conditioncontainer>
+    <conditioncontainer id="t190" x="-560.0" y="-52.5">[ • 2. • ]</conditioncontainer>
+    <actioncontainer id="t191" x="-560.0" y="87.5">[ • 𝐟𝐥𝐨𝐰𝐞 𝐬𝐭𝐨𝐩 •]</actioncontainer>
+    <actioncontainer id="t192" x="-560.0" y="87.5">[ • 𝐇𝐢𝐝𝐞  𝐖𝐢𝐝𝐠𝐞𝐭 • ]</actioncontainer>
+    <actioncontainer id="t193" x="-560.0" y="87.5">Notification on Screen: ⪻⪻ 𝐄𝐱𝐢𝐭</actioncontainer>
+    <actioncontainer id="t194" x="-560.0" y="227.5">hide</actioncontainer>
+    <actioncontainer id="t195" x="-560.0" y="227.5">Switch Off</actioncontainer>
+    <actioncontainer id="t196" x="-735.0" y="-17.5">global_Speed</actioncontainer>
+    <actioncontainer id="t197" x="-35.0" y="-192.5">set Dpi</actioncontainer>
+    <actioncontainer id="t198" x="-35.0" y="-52.5">Dpi+value </actioncontainer>
+    <actioncontainer id="t199" x="-35.0" y="87.5">Execute Dpi</actioncontainer>
+    <actioncontainer id="t200" x="280.0" y="-17.5">Show</actioncontainer>
+    <conditioncontainer id="t201" x="-1890.0" y="-2362.5">Expression: eval(response)</conditioncontainer>
+    <actioncontainer id="t202" x="-1890.0" y="-2642.5">Input Dialog: ใส่รหัส Password </actioncontainer>
+    <actioncontainer id="t203" x="-2100.0" y="-2222.5">Notification on Screen: ยูสเซอร์เนมถูกต้อง 
+</actioncontainer>
+    <actioncontainer id="t204" x="-1680.0" y="-2257.5">Notification on Screen: รหัสผ่านไม่ถูกต้อง
+กรุณาขอรหัสใหม่หรือใส่อีกครั้ง</actioncontainer>
+    <actioncontainer id="t205" x="-1890.0" y="-2222.5">Message Dialog: เกิดข้อผิดพลาด </actioncontainer>
+    <actioncontainer id="t206" x="-1890.0" y="-2502.5">API http html</actioncontainer>
+    <actioncontainer id="t207" x="-1225.0" y="-1767.5">stsc</actioncontainer>
+    <conditioncontainer id="t208" x="-1190.0" y="-2082.5">Menu Page Kamui</conditioncontainer>
+    <actioncontainer id="t209" x="-945.0" y="-3412.5">Notification on Screen: ❤️‍🔥 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨  𝐦𝐞𝐧𝐮 𝐊𝐚𝐦𝐮𝐢 ❤️‍🔥</actioncontainer>
+    <actioncontainer id="t210" x="-805.0" y="-3202.5">Notification on Screen: ไม่พบข้อมูลผู้ใช้!</actioncontainer>
+    <actioncontainer id="t211" x="-1190.0" y="-2502.5">Script: global_Version = value</actioncontainer>
+    <conditioncontainer id="t212" x="-1190.0" y="-2642.5">PHANToM Version.</conditioncontainer>
+    <actioncontainer id="t213" x="-945.0" y="-3307.5">stct</actioncontainer>
+    <conditioncontainer id="t214" x="-1190.0" y="-2222.5">PHANToM Version</conditioncontainer>
+    <actioncontainer id="t215" x="-945.0" y="-2992.5">stc</actioncontainer>
+    <actioncontainer id="t216" x="-1365.0" y="-2642.5">Notification on Screen: รหัสผิดจ้า</actioncontainer>
+    <actioncontainer id="t217" x="-1470.0" y="-2082.5">Trigger C</actioncontainer>
+    <actioncontainer id="t218" x="-1540.0" y="-2642.5">stsc</actioncontainer>
+    <actioncontainer id="t219" x="-805.0" y="-2992.5">Clear PHANToM Log</actioncontainer>
+    <actioncontainer id="t220" x="-1190.0" y="-2922.5">Kill  Process Kamui</actioncontainer>
+    <actioncontainer id="t221" x="-1190.0" y="-2782.5">Input Dialog: User_name Password กรอกชื่อผู้ใช้</actioncontainer>
+    <conditioncontainer id="t222" x="-945.0" y="-3202.5">Expression: eval(PHANToM_Key0);</conditioncontainer>
+    <actioncontainer id="t223" x="-1190.0" y="-3062.5">Script: global_User = value;</actioncontainer>
+    <actioncontainer id="t224" x="-1190.0" y="-2362.5">Input Dialog: Key_pass_Login Password password</actioncontainer>
+    <conditioncontainer id="t225" x="-1435.0" y="-1627.5">PHANToM Shot</conditioncontainer>
+    <actioncontainer id="t226" x="-980.0" y="2502.5"> [ • 𝐒𝐞𝐭 𝐬𝐲𝐬𝐭𝐞𝐦 • ] </actioncontainer>
+    <actioncontainer id="t227" x="-630.0" y="-997.5"> ❤️‍🔥 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 ❤️‍🔥</actioncontainer>
+    <actioncontainer id="t228" x="-560.0" y="-787.5">[ • menu Mod • ]</actioncontainer>
+    <actioncontainer id="t229" x="-1050.0" y="-1767.5">Notification on Screen: รหัสผิดจ้า</actioncontainer>
+    <conditioncontainer id="t230" x="-875.0" y="-2397.5">Expression: eval(PHANToM_Key0);</conditioncontainer>
+    <actioncontainer id="t231" x="-665.0" y="-2432.5">Notification on Screen: ไม่พบข้อมูลผู้ใช้!</actioncontainer>
+    <actioncontainer id="t232" x="-665.0" y="-2572.5">Clear PHANToM Log</actioncontainer>
+    <actioncontainer id="t233" x="-875.0" y="-2572.5">stc</actioncontainer>
+    <actioncontainer id="t234" x="-665.0" y="-1872.5">Notification on Screen: ❤️‍🔥 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨  𝐦𝐞𝐧𝐮 𝐊𝐚𝐦𝐮𝐢 ❤️‍🔥</actioncontainer>
+    <actioncontainer id="t235" x="-665.0" y="-2292.5">stct</actioncontainer>
+    <actioncontainer id="t236" x="-910.0" y="-647.5">[ • menu Mod • ]</actioncontainer>
+    <actioncontainer id="t237" x="-980.0" y="2117.5">[ • 𝐌𝐞𝐧𝐮 • ]</actioncontainer>
+    <actioncontainer id="t238" x="-875.0" y="-1907.5">Input Dialog: 𝐔𝐬𝐞𝐫𝐧𝐚𝐦𝐞 Password ใส่User name ที่เราตั้ง</actioncontainer>
+    <actioncontainer id="t239" x="-875.0" y="-1487.5">Input Dialog: 𝐩𝐚𝐬𝐬𝐰𝐨𝐫𝐝 Password กรุณาใส่รหัสผ่านก่อนเข้าใช้งาน</actioncontainer>
+    <actioncontainer id="t240" x="-910.0" y="-647.5"> ❤️‍🔥 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 ❤️‍🔥</actioncontainer>
+    <actioncontainer id="t241" x="-874.9999" y="-2222.5">Script: global_User = value;</actioncontainer>
+    <actioncontainer id="t242" x="-875.0" y="-2047.5">Kill  Process Kamui</actioncontainer>
+    <actioncontainer id="t243" x="-630.0" y="-2047.5">Username Tile1</actioncontainer>
+    <actioncontainer id="t244" x="-1050.0" y="-1487.5">Trigger Point </actioncontainer>
+    <conditioncontainer id="t245" x="-1365.0" y="-2502.5">PHANToM Shot</conditioncontainer>
+    <actioncontainer id="t246" x="-1470.0" y="-2397.5">Trigger Cgh</actioncontainer>
+    <triggercontainer id="t247" x="-1050.0" y="-1347.5">
+      <trigger>Username Tile1</trigger>
+    </triggercontainer>
+    <actioncontainer id="t248" x="-875.0" y="-1627.5">Script: global_Version = value</actioncontainer>
+    <conditioncontainer id="t249" x="-875.0" y="-1767.5">Hub Master Version.</conditioncontainer>
+    <conditioncontainer id="t250" x="-875.0" y="-1347.5">Hub Master Version</conditioncontainer>
+    <actioncontainer id="t251" x="-1050.0" y="-1207.5">back</actioncontainer>
+    <actioncontainer id="t252" x="-1225.0" y="-1347.5">Trigger </actioncontainer>
+    <conditioncontainer id="t253" x="-875.0" y="-1207.5">Menu Page </conditioncontainer>
+    <connection from="t1" to="t46" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t2" to="t184" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t3" to="t42" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t4" to="t24" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t5" to="t25" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t6" to="t67" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t7" to="t196" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t8" to="t178" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t9" to="t44" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t10" to="t11" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t11" to="t13" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t12" to="t177" type="NORMAL" sourcePosition="EAST" targetPosition="NORTH" />
+    <connection from="t13" to="t12" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t14" to="t41" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t15" to="t185" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t16" to="t14" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t17" to="t197" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t18" to="t179" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t19" to="t40" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t20" to="t7" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t21" to="t163" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t22" to="t2" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t23" to="t1" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t24" to="t236" type="NORMAL" sourcePosition="NORTH" targetPosition="WEST" />
+    <connection from="t25" to="t45" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t26" to="t38" type="NORMAL" sourcePosition="EAST" targetPosition="NORTH" />
+    <connection from="t27" to="t37" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t28" to="t163" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t29" to="t35" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t30" to="t163" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t31" to="t163" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t32" to="t33" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t33" to="t163" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t34" to="t163" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t35" to="t163" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t36" to="t34" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t37" to="t163" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t37" to="t35" type="NORMAL" sourcePosition="EAST" targetPosition="NORTH" />
+    <connection from="t38" to="t163" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t39" to="t163" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t40" to="t8" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t41" to="t236" type="NORMAL" sourcePosition="NORTH" targetPosition="EAST" />
+    <connection from="t42" to="t43" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t43" to="t236" type="NORMAL" sourcePosition="NORTH" targetPosition="WEST" />
+    <connection from="t44" to="t236" type="NORMAL" sourcePosition="NORTH" targetPosition="EAST" />
+    <connection from="t45" to="t236" type="NORMAL" sourcePosition="NORTH" targetPosition="WEST" />
+    <connection from="t46" to="t236" type="NORMAL" sourcePosition="NORTH" targetPosition="WEST" />
+    <connection from="t47" to="t82" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t48" to="t69" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t49" to="t64" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t50" to="t69" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t51" to="t68" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t52" to="t65" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t53" to="t66" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t54" to="t69" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t55" to="t51" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t56" to="t47" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t57" to="t49" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t58" to="t50" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t59" to="t48" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t60" to="t52" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t61" to="t53" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t62" to="t54" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t63" to="t6" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t64" to="t69" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t65" to="t69" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t66" to="t69" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t67" to="t69" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t68" to="t69" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t69" to="t59" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t69" to="t56" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t69" to="t55" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t69" to="t58" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t69" to="t63" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t69" to="t57" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t69" to="t62" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t69" to="t61" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t69" to="t60" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t70" to="t69" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t71" to="t74" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t72" to="t81" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t73" to="t71" type="NORMAL" sourcePosition="EAST" targetPosition="NORTH" />
+    <connection from="t74" to="t77" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t75" to="t78" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t76" to="t75" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t77" to="t83" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t78" to="t72" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t79" to="t76" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t80" to="t226" type="NORMAL" sourcePosition="NORTH" targetPosition="WEST" />
+    <connection from="t81" to="t73" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t82" to="t69" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t83" to="t80" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t84" to="t85" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t85" to="t86" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t86" to="t87" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t87" to="t226" type="NORMAL" sourcePosition="NORTH" targetPosition="WEST" />
+    <connection from="t88" to="t93" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t89" to="t88" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t90" to="t79" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t91" to="t84" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t92" to="t89" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t93" to="t226" type="NORMAL" sourcePosition="NORTH" targetPosition="WEST" />
+    <connection from="t95" to="t143" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t96" to="t144" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t97" to="t226" type="NORMAL" sourcePosition="NORTH" targetPosition="EAST" />
+    <connection from="t98" to="t99" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t99" to="t100" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t100" to="t237" type="NORMAL" sourcePosition="NORTH" targetPosition="EAST" />
+    <connection from="t101" to="t103" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t102" to="t101" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t103" to="t104" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t104" to="t237" type="NORMAL" sourcePosition="NORTH" targetPosition="EAST" />
+    <connection from="t104" to="t109" type="NORMAL" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t105" to="t106" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t106" to="t107" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t107" to="t237" type="NORMAL" sourcePosition="NORTH" targetPosition="EAST" />
+    <connection from="t107" to="t109" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t111" to="t110" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t112" to="t111" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t114" to="t145" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t115" to="t105" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t115" to="t102" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t115" to="t114" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t116" to="t115" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t117" to="t226" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t118" to="t119" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t119" to="t120" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t120" to="t226" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t121" to="t141" type="NORMAL" sourcePosition="NORTH" targetPosition="EAST" />
+    <connection from="t122" to="t121" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t123" to="t122" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t124" to="t125" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t125" to="t126" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t126" to="t141" type="NORMAL" sourcePosition="NORTH" targetPosition="EAST" />
+    <connection from="t127" to="t141" type="NORMAL" sourcePosition="NORTH" targetPosition="EAST" />
+    <connection from="t128" to="t127" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t129" to="t128" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t130" to="t131" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t131" to="t132" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t132" to="t141" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t133" to="t141" type="NORMAL" sourcePosition="NORTH" targetPosition="WEST" />
+    <connection from="t134" to="t133" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t135" to="t134" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t136" to="t137" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t138" to="t139" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t139" to="t140" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t140" to="t141" type="NORMAL" sourcePosition="NORTH" targetPosition="WEST" />
+    <connection from="t141" to="t136" type="NORMAL" sourcePosition="WEST" targetPosition="NORTH" />
+    <connection from="t141" to="t138" type="NORMAL" sourcePosition="WEST" targetPosition="NORTH" />
+    <connection from="t141" to="t135" type="NORMAL" sourcePosition="WEST" targetPosition="NORTH" />
+    <connection from="t141" to="t130" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t141" to="t129" type="NORMAL" sourcePosition="EAST" targetPosition="NORTH" />
+    <connection from="t141" to="t124" type="NORMAL" sourcePosition="EAST" targetPosition="NORTH" />
+    <connection from="t141" to="t123" type="NORMAL" sourcePosition="EAST" targetPosition="NORTH" />
+    <connection from="t141" to="t118" type="NORMAL" sourcePosition="EAST" targetPosition="NORTH" />
+    <connection from="t142" to="t141" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t143" to="t94" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t144" to="t97" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t145" to="t108" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t146" to="t149" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t147" to="t154" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t148" to="t150" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t149" to="t157" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t150" to="t151" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t151" to="t160" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t152" to="t160" type="NORMAL" sourcePosition="NORTH" targetPosition="WEST" />
+    <connection from="t153" to="t160" type="NORMAL" sourcePosition="NORTH" targetPosition="EAST" />
+    <connection from="t154" to="t152" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t156" to="t155" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t157" to="t160" type="NORMAL" sourcePosition="NORTH" targetPosition="WEST" />
+    <connection from="t158" to="t153" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t159" to="t158" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t160" to="t147" type="NORMAL" sourcePosition="WEST" targetPosition="NORTH" />
+    <connection from="t160" to="t146" type="NORMAL" sourcePosition="WEST" targetPosition="NORTH" />
+    <connection from="t160" to="t148" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t160" to="t159" type="NORMAL" sourcePosition="EAST" targetPosition="NORTH" />
+    <connection from="t160" to="t161" type="NORMAL" sourcePosition="EAST" targetPosition="NORTH" />
+    <connection from="t161" to="t156" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t162" to="t112" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t163" to="t171" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t163" to="t172" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t163" to="t173" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t163" to="t165" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t163" to="t174" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t163" to="t170" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t163" to="t167" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t163" to="t168" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t163" to="t166" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t163" to="t169" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t164" to="t236" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t165" to="t28" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t166" to="t26" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t167" to="t31" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t168" to="t27" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t169" to="t164" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t170" to="t29" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t171" to="t30" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t172" to="t36" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t173" to="t32" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t174" to="t183" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t175" to="t9" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t176" to="t175" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t177" to="t176" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t178" to="t10" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t179" to="t180" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t180" to="t181" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t181" to="t186" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t182" to="t187" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t183" to="t39" type="NORMAL" sourcePosition="EAST" targetPosition="NORTH" />
+    <connection from="t184" to="t236" type="NORMAL" sourcePosition="NORTH" targetPosition="WEST" />
+    <connection from="t185" to="t200" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t186" to="t236" type="NORMAL" sourcePosition="NORTH" targetPosition="EAST" />
+    <connection from="t187" to="t188" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t187" to="t189" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t187" to="t190" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t188" to="t192" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t189" to="t191" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t190" to="t193" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t191" to="t195" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t192" to="t194" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t193" to="t236" type="NORMAL" sourcePosition="NORTH" targetPosition="EAST" />
+    <connection from="t194" to="t187" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t195" to="t187" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t196" to="t236" type="NORMAL" sourcePosition="NORTH" targetPosition="EAST" />
+    <connection from="t197" to="t198" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t198" to="t199" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t199" to="t236" type="NORMAL" sourcePosition="NORTH" targetPosition="EAST" />
+    <connection from="t200" to="t236" type="NORMAL" sourcePosition="NORTH" targetPosition="EAST" />
+    <connection from="t201" to="t205" type="EXCEPTION" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t201" to="t204" type="FALSE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t201" to="t203" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t202" to="t206" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t206" to="t201" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t209" to="t219" type="NORMAL" sourcePosition="EAST" targetPosition="NORTH" />
+    <connection from="t210" to="t219" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t211" to="t212" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t212" to="t216" type="FALSE" sourcePosition="WEST" targetPosition="EAST" />
+    <connection from="t212" to="t221" type="TRUE" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t213" to="t209" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t214" to="t208" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t214" to="t224" type="FALSE" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t215" to="t219" type="NORMAL" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t216" to="t218" type="NORMAL" sourcePosition="WEST" targetPosition="EAST" />
+    <connection from="t220" to="t223" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t221" to="t220" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t222" to="t210" type="EXCEPTION" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t222" to="t210" type="FALSE" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t222" to="t213" type="TRUE" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t222" to="t215" type="EXCEPTION" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t222" to="t215" type="FALSE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t223" to="t222" type="NORMAL" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t224" to="t211" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t226" to="t91" type="NORMAL" sourcePosition="WEST" targetPosition="NORTH" />
+    <connection from="t226" to="t70" type="NORMAL" sourcePosition="WEST" targetPosition="NORTH" />
+    <connection from="t226" to="t90" type="NORMAL" sourcePosition="WEST" targetPosition="NORTH" />
+    <connection from="t226" to="t92" type="NORMAL" sourcePosition="EAST" targetPosition="NORTH" />
+    <connection from="t226" to="t95" type="NORMAL" sourcePosition="EAST" targetPosition="NORTH" />
+    <connection from="t226" to="t96" type="NORMAL" sourcePosition="EAST" targetPosition="NORTH" />
+    <connection from="t226" to="t98" type="NORMAL" sourcePosition="EAST" targetPosition="NORTH" />
+    <connection from="t229" to="t207" type="NORMAL" sourcePosition="WEST" targetPosition="EAST" />
+    <connection from="t230" to="t231" type="EXCEPTION" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t230" to="t231" type="FALSE" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t230" to="t235" type="TRUE" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t230" to="t233" type="EXCEPTION" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t230" to="t233" type="FALSE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t231" to="t232" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t233" to="t232" type="NORMAL" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t234" to="t232" type="NORMAL" sourcePosition="EAST" targetPosition="EAST" />
+    <connection from="t235" to="t243" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t236" to="t4" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t236" to="t3" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t236" to="t5" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t236" to="t23" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t236" to="t22" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t236" to="t21" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t236" to="t20" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t236" to="t182" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t236" to="t19" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t236" to="t18" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t236" to="t17" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t236" to="t16" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t236" to="t15" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t237" to="t117" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t237" to="t116" type="NORMAL" sourcePosition="EAST" targetPosition="NORTH" />
+    <connection from="t237" to="t142" type="NORMAL" sourcePosition="WEST" targetPosition="NORTH" />
+    <connection from="t237" to="t162" type="NORMAL" sourcePosition="EAST" targetPosition="NORTH" />
+    <connection from="t237" to="t113" type="NORMAL" sourcePosition="EAST" targetPosition="NORTH" />
+    <connection from="t238" to="t242" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t239" to="t248" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t241" to="t230" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t242" to="t241" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t243" to="t234" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t247" to="t244" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t247" to="t252" type="NORMAL" sourcePosition="WEST" targetPosition="EAST" />
+    <connection from="t247" to="t251" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t247" to="t250" type="NORMAL" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t248" to="t249" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t249" to="t229" type="FALSE" sourcePosition="WEST" targetPosition="EAST" />
+    <connection from="t249" to="t238" type="TRUE" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t250" to="t253" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t250" to="t239" type="FALSE" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t253" to="t236" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+  </flow>
+  <flow type="flow">
+    <name>🌟 [ • 𝐏𝐚𝐬𝐬𝐰𝐨𝐫𝐝  • ] 🌟</name>
+    <description>𝐒𝐞𝐭𝐭𝐢𝐧𝐠</description>
+    <group>🌟 [ • 𝐒𝐞𝐭𝐭𝐢𝐧𝐠 • ] 🌟</group>
+    <enabled>true</enabled>
+    <executionPolicy>PARALLEL</executionPolicy>
+    <triggercontainer id="t1" x="245.0" y="157.5">
+      <trigger>UI Event: Text selection changed package th.in.robinhood.rider </trigger>
+    </triggercontainer>
+    <actioncontainer id="t2" x="245.0" y="297.5">𝐊𝐞𝐲 𝐍𝐞𝐭𝐟𝐥𝐢𝐱 </actioncontainer>
+    <actioncontainer id="t3" x="245.0" y="437.5">PIN 📍</actioncontainer>
+    <connection from="t1" to="t2" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t2" to="t3" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+  </flow>
+  <flow type="flow">
+    <name>🌟 [ • 𝐒𝐞𝐭 𝐚𝐩𝐩 • ] 🌟</name>
+    <description>𝐒𝐞𝐭𝐭𝐢𝐧𝐠</description>
+    <group>🌟 [ • 𝐒𝐞𝐭𝐭𝐢𝐧𝐠 • ] 🌟</group>
+    <enabled>false</enabled>
+    <executionPolicy>PARALLEL</executionPolicy>
+    <triggercontainer id="t1" x="-175.0" y="-892.5" />
+    <actioncontainer id="t2" x="525.0" y="-1942.5">Delay</actioncontainer>
+    <actioncontainer id="t3" x="350.0" y="-1942.5">Delay</actioncontainer>
+    <actioncontainer id="t4" x="-175.0" y="-2082.5">Delay</actioncontainer>
+    <actioncontainer id="t5" x="0.0" y="-2082.5">Delay</actioncontainer>
+    <actioncontainer id="t6" x="350.0" y="-2082.5">Delay</actioncontainer>
+    <actioncontainer id="t7" x="525.0" y="-2082.5">Delay</actioncontainer>
+    <actioncontainer id="t8" x="525.0" y="-2222.5">Delay</actioncontainer>
+    <actioncontainer id="t9" x="350.0" y="-2222.5">Delay</actioncontainer>
+    <actioncontainer id="t10" x="175.0" y="-2222.5">Delay</actioncontainer>
+    <actioncontainer id="t11" x="0.0" y="-2222.5">Delay</actioncontainer>
+    <actioncontainer id="t12" x="-175.0" y="-2222.5">Delay</actioncontainer>
+    <actioncontainer id="t13" x="175.0" y="-2082.5">Delay</actioncontainer>
+    <actioncontainer id="t14" x="0.0" y="-1942.5">Delay</actioncontainer>
+    <actioncontainer id="t15" x="175.0" y="-1942.5">Delay</actioncontainer>
+    <actioncontainer id="t16" x="-175.0" y="-1942.5">Delay</actioncontainer>
+    <actioncontainer id="t17" x="-525.0" y="-1102.5">⌛Macro⌛</actioncontainer>
+    <actioncontainer id="t18" x="525.0" y="-2362.5">Delay</actioncontainer>
+    <actioncontainer id="t19" x="350.0" y="-2362.5">Delay</actioncontainer>
+    <actioncontainer id="t20" x="175.0" y="-2362.5">Delay</actioncontainer>
+    <actioncontainer id="t21" x="350.0" y="-2502.5">Delay</actioncontainer>
+    <actioncontainer id="t22" x="175.0" y="-2502.5">Delay</actioncontainer>
+    <actioncontainer id="t23" x="0.0" y="-2502.5">Delay</actioncontainer>
+    <actioncontainer id="t24" x="-175.0" y="-2362.5">Delay</actioncontainer>
+    <actioncontainer id="t25" x="0.0" y="-2362.5">Delay</actioncontainer>
+    <actioncontainer id="t26" x="-175.0" y="-2502.5">Delay</actioncontainer>
+    <actioncontainer id="t27" x="525.0" y="-2642.5">Delay</actioncontainer>
+    <actioncontainer id="t28" x="350.0" y="-2782.5">Delay</actioncontainer>
+    <actioncontainer id="t29" x="350.0" y="-2642.5">Delay</actioncontainer>
+    <actioncontainer id="t30" x="0.0" y="-2642.5">Delay</actioncontainer>
+    <actioncontainer id="t31" x="175.0" y="-2642.5">Delay</actioncontainer>
+    <actioncontainer id="t32" x="-175.0" y="-2642.5">Delay</actioncontainer>
+    <actioncontainer id="t33" x="-175.0" y="-2782.5">Delay</actioncontainer>
+    <actioncontainer id="t34" x="0.0" y="-2782.5">Delay</actioncontainer>
+    <actioncontainer id="t35" x="175.0" y="-2782.5">Delay</actioncontainer>
+    <actioncontainer id="t36" x="525.0" y="-2502.5">Delay</actioncontainer>
+    <actioncontainer id="t37" x="560.0" y="-2992.5">Stop Flows: 🌟 [ • 𝐒𝐞𝐭 𝐚𝐩𝐩 • ] 🌟</actioncontainer>
+    <actioncontainer id="t38" x="525.0" y="-2782.5">Delay</actioncontainer>
+    <conditioncontainer id="t39" x="-700.0" y="-542.5">[ • 𝟏 • ] ❗</conditioncontainer>
+    <actioncontainer id="t40" x="-700.0" y="-402.5">[•𝐇𝐢𝐝𝐞 𝐤𝐞𝐲𝐛𝐨𝐚𝐫𝐝•]</actioncontainer>
+    <actioncontainer id="t41" x="-350.0" y="-367.5">𝐑𝐨𝐛𝐢𝐧𝐇𝐨𝐨𝐝</actioncontainer>
+    <actioncontainer id="t42" x="-70.0" y="-437.5">Maro</actioncontainer>
+    <actioncontainer id="t43" x="-595.0" y="-682.5">[ • 𝐌𝐚𝐜𝐫𝐨 • ] </actioncontainer>
+    <conditioncontainer id="t44" x="-490.0" y="-542.5">[ • 𝟐 • ]❗</conditioncontainer>
+    <actioncontainer id="t45" x="-490.0" y="-402.5">[ • 𝐨𝐧 𝐤𝐞𝐲𝐛𝐨𝐚𝐫𝐝 • ]</actioncontainer>
+    <actioncontainer id="t46" x="-70.0" y="-717.5">⌛Macro⌛.</actioncontainer>
+    <actioncontainer id="t47" x="-280.0" y="-717.5">Launch </actioncontainer>
+    <actioncontainer id="t48" x="-70.0" y="17.5">Ok_2</actioncontainer>
+    <conditioncontainer id="t49" x="-175.0" y="122.5">Expression: Ok_2</conditioncontainer>
+    <actioncontainer id="t50" x="-280.0" y="262.5">𝗢𝗞2</actioncontainer>
+    <connection from="t1" to="t47" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t2" to="t7" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t3" to="t2" type="NORMAL" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t4" to="t12" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t5" to="t4" type="NORMAL" sourcePosition="WEST" targetPosition="EAST" />
+    <connection from="t6" to="t13" type="NORMAL" sourcePosition="WEST" targetPosition="EAST" />
+    <connection from="t7" to="t6" type="NORMAL" sourcePosition="WEST" targetPosition="EAST" />
+    <connection from="t8" to="t18" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t9" to="t8" type="NORMAL" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t10" to="t9" type="NORMAL" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t11" to="t10" type="NORMAL" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t12" to="t11" type="NORMAL" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t13" to="t5" type="NORMAL" sourcePosition="WEST" targetPosition="EAST" />
+    <connection from="t14" to="t15" type="NORMAL" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t15" to="t3" type="NORMAL" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t16" to="t14" type="NORMAL" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t18" to="t19" type="NORMAL" sourcePosition="WEST" targetPosition="EAST" />
+    <connection from="t19" to="t20" type="NORMAL" sourcePosition="WEST" targetPosition="EAST" />
+    <connection from="t20" to="t25" type="NORMAL" sourcePosition="WEST" targetPosition="EAST" />
+    <connection from="t21" to="t36" type="NORMAL" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t22" to="t21" type="NORMAL" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t23" to="t22" type="NORMAL" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t24" to="t26" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t25" to="t24" type="NORMAL" sourcePosition="WEST" targetPosition="EAST" />
+    <connection from="t26" to="t23" type="NORMAL" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t27" to="t29" type="NORMAL" sourcePosition="WEST" targetPosition="EAST" />
+    <connection from="t28" to="t38" type="NORMAL" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t29" to="t31" type="NORMAL" sourcePosition="WEST" targetPosition="EAST" />
+    <connection from="t30" to="t32" type="NORMAL" sourcePosition="WEST" targetPosition="EAST" />
+    <connection from="t31" to="t30" type="NORMAL" sourcePosition="WEST" targetPosition="EAST" />
+    <connection from="t32" to="t33" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t33" to="t34" type="NORMAL" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t34" to="t35" type="NORMAL" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t35" to="t28" type="NORMAL" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t36" to="t27" type="NORMAL" sourcePosition="NORTH" targetPosition="SOUTH" />
+    <connection from="t38" to="t37" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t39" to="t40" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t42" to="t41" type="NORMAL" sourcePosition="NORTH" targetPosition="NORTH" />
+    <connection from="t43" to="t39" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t43" to="t44" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t44" to="t45" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t46" to="t42" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t47" to="t46" type="NORMAL" sourcePosition="NORTH" targetPosition="NORTH" />
+    <connection from="t48" to="t49" type="NORMAL" sourcePosition="SOUTH" targetPosition="EAST" />
+    <connection from="t49" to="t48" type="FALSE" sourcePosition="EAST" targetPosition="SOUTH" />
+    <connection from="t49" to="t50" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+  </flow>
+  <flow type="flow">
+    <name>🌟 [ • 𝐜𝐨𝐧𝐭𝐫𝐨𝐥 𝐬𝐰𝐢𝐭𝐜𝐡 • ] 🌟</name>
+    <description>𝐒𝐞𝐭𝐭𝐢𝐧𝐠</description>
+    <group>🌟 [ • 𝐒𝐞𝐭𝐭𝐢𝐧𝐠 • ] 🌟</group>
+    <enabled>false</enabled>
+    <executionPolicy>PARALLEL</executionPolicy>
+    <triggercontainer id="t1" x="-1435.0" y="17.5">
+      <trigger>Tile - 3</trigger>
+    </triggercontainer>
+    <actioncontainer id="t2" x="-840.0" y="437.5">𝐊𝐞𝐲𝐛𝐨𝐚𝐫𝐝 - 𝟐</actioncontainer>
+    <actioncontainer id="t3" x="-840.0" y="542.5">Set Flow - 9</actioncontainer>
+    <actioncontainer id="t4" x="0.0" y="1662.5">Set Flow - 10</actioncontainer>
+    <actioncontainer id="t5" x="0.0" y="1767.5">Tile 6</actioncontainer>
+    <actioncontainer id="t6" x="0.0" y="1907.5">Set Flow - 5</actioncontainer>
+    <actioncontainer id="t7" x="-420.0" y="1032.5">Tile 3</actioncontainer>
+    <actioncontainer id="t8" x="-665.0" y="437.5">Tile 1 </actioncontainer>
+    <actioncontainer id="t9" x="-350.0" y="437.5"> Tile 2</actioncontainer>
+    <actioncontainer id="t10" x="-665.0" y="647.5">Stop Flow - 1</actioncontainer>
+    <actioncontainer id="t11" x="-665.0" y="542.5">Set Flow - 1</actioncontainer>
+    <actioncontainer id="t12" x="-560.0" y="1522.5">Stop Flow - 4</actioncontainer>
+    <actioncontainer id="t13" x="-560.0" y="1417.5">Set Flow - 4</actioncontainer>
+    <conditioncontainer id="t14" x="-385.0" y="1207.5">Null - 3</conditioncontainer>
+    <conditioncontainer id="t15" x="-350.0" y="1697.5">Null - 4</conditioncontainer>
+    <actioncontainer id="t16" x="-245.0" y="1382.5">Tile 4</actioncontainer>
+    <actioncontainer id="t17" x="-560.0" y="1662.5">Set Flow - 4.1</actioncontainer>
+    <actioncontainer id="t18" x="-350.0" y="682.5">Set Flow - 2</actioncontainer>
+    <actioncontainer id="t19" x="-350.0" y="787.5">Stop Flow - 2</actioncontainer>
+    <actioncontainer id="t20" x="-350.0" y="927.5">Set Flow - 2.1</actioncontainer>
+    <conditioncontainer id="t21" x="-350.0" y="577.5">Null - 2</conditioncontainer>
+    <conditioncontainer id="t22" x="-525.0" y="297.5">Null - 1</conditioncontainer>
+    <conditioncontainer id="t23" x="-1190.0" y="1417.5">Null - 4.2</conditioncontainer>
+    <actioncontainer id="t24" x="-1505.0" y="1522.5">Set Flow - 3.1.2</actioncontainer>
+    <actioncontainer id="t25" x="-1505.0" y="1277.5">Set Flow - 3.2</actioncontainer>
+    <actioncontainer id="t26" x="-1715.0" y="927.5">Set Flow - 2.2</actioncontainer>
+    <actioncontainer id="t27" x="-1330.0" y="1557.5">Set Flow - 4.2</actioncontainer>
+    <actioncontainer id="t28" x="-1085.0" y="1802.5">Set Flow - 5.2</actioncontainer>
+    <actioncontainer id="t29" x="-1085.0" y="1662.5">Tile 6</actioncontainer>
+    <actioncontainer id="t30" x="-1330.0" y="1662.5">Stop Flow - 4.2</actioncontainer>
+    <conditioncontainer id="t31" x="-1330.0" y="1102.5">Null - 3.2</conditioncontainer>
+    <actioncontainer id="t32" x="-1085.0" y="1557.5">Stop Flow - 5</actioncontainer>
+    <actioncontainer id="t33" x="-1190.0" y="1277.5">Tile 4</actioncontainer>
+    <actioncontainer id="t34" x="-1330.0" y="1802.5">Set Flow - 4.1.2</actioncontainer>
+    <actioncontainer id="t35" x="-1330.0" y="927.5">Tile 3.2</actioncontainer>
+    <conditioncontainer id="t36" x="-1575.0" y="787.5">Null - 2.2</conditioncontainer>
+    <actioncontainer id="t37" x="-1715.0" y="1032.5">Stop Flow - 2.2</actioncontainer>
+    <actioncontainer id="t38" x="-595.0" y="997.5">Set Flow - 3</actioncontainer>
+    <actioncontainer id="t39" x="-595.0" y="1102.5">Stop Flow - 3</actioncontainer>
+    <actioncontainer id="t40" x="-595.0" y="1242.5">Set Flow - 3.1</actioncontainer>
+    <actioncontainer id="t41" x="-1575.0" y="612.5">Stop Flow - 1.2</actioncontainer>
+    <actioncontainer id="t42" x="-1505.0" y="1382.5">Stop Flow - 3.2</actioncontainer>
+    <actioncontainer id="t43" x="-1575.0" y="367.5">Tile 1 .2</actioncontainer>
+    <actioncontainer id="t44" x="-1575.0" y="507.5">Set Flow - 1.2</actioncontainer>
+    <actioncontainer id="t45" x="-1295.0" y="367.5"> Tile 2.2</actioncontainer>
+    <conditioncontainer id="t46" x="-1435.0" y="192.5">Null - 1.2</conditioncontainer>
+    <actioncontainer id="t47" x="-1715.0" y="1137.5">Set Flow - 2.1.2</actioncontainer>
+    <connection from="t1" to="t46" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t2" to="t3" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t4" to="t5" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t5" to="t6" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t7" to="t14" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t8" to="t11" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t8" to="t2" type="NORMAL" sourcePosition="WEST" targetPosition="EAST" />
+    <connection from="t9" to="t21" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t11" to="t10" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t12" to="t17" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t13" to="t12" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t14" to="t16" type="FALSE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t14" to="t13" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t16" to="t4" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t18" to="t19" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t19" to="t20" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t21" to="t18" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t22" to="t9" type="FALSE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t22" to="t8" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t23" to="t27" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t23" to="t32" type="FALSE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t25" to="t42" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t26" to="t37" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t27" to="t30" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t29" to="t28" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t30" to="t34" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t31" to="t25" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t31" to="t33" type="FALSE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t32" to="t29" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t33" to="t23" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t35" to="t31" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t36" to="t26" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t36" to="t35" type="FALSE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t37" to="t47" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t38" to="t39" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t39" to="t40" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t42" to="t24" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t43" to="t44" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t44" to="t41" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t45" to="t36" type="NORMAL" sourcePosition="SOUTH" targetPosition="EAST" />
+    <connection from="t46" to="t45" type="FALSE" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t46" to="t43" type="TRUE" sourcePosition="SOUTH" targetPosition="NORTH" />
+  </flow>
+</data>
